@@ -1,0 +1,230 @@
+/* starting of home section */
+
+.section-home {
+  background-color: var(--light-gray);
+  margin: 0px;
+}
+.section-home-1 {
+  padding-top: 20%;
+  padding-bottom: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.section-home-1 .home-mid-paragraph {
+  position: relative;
+  text-align: center;
+  width: 70%;
+  color: #141c51;
+  font-size: 35px;
+  opacity: 0.9;
+}
+
+.custom-quotation {
+  position: absolute;
+  color: #141c51;
+  left: 15%;
+  top: 0;
+  width: 50px;
+}
+
+/* our services header */
+
+.section-home-2 {
+  padding-bottom: 5%;
+}
+
+.section-home-2 h2 {
+  margin-left: 5%;
+  margin-bottom: 3%;
+  color: #141c51;
+  font-size: 40px;
+}
+
+.inside-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-home-2 p {
+  margin: 0;
+  margin-right: 3px;
+  font-size: 43px;
+  color: #141c51;
+}
+
+.section-home-2 button {
+  padding: 10px 8px;
+  width: 22rem;
+  height: 4rem;
+  opacity: 0.9;
+  text-align: center;
+  font-size: 17px;
+  border: none;
+  color: var(--white);
+  background: #141c51 0% 0% no-repeat padding-box;
+  border-radius: 30px;
+  /* cursor: pointer; */
+  transition: all 0.3s ease;
+}
+
+.section-home-2 .container {
+  width: 75%;
+}
+.section-home-2 .row {
+  margin-bottom: 3%;
+}
+
+/* section 3 why expand to middle east*/
+.section-home-3 h2 {
+  margin-left: 5%;
+  margin-bottom: 3%;
+  color: #141c51;
+  font-size: 45px;
+}
+
+.section-home-3 .card1 {
+  position: relative;
+  width: 600px;
+  height: 300px;
+}
+
+.section-home-3 .part1 {
+  padding: 15px 20px;
+  position: absolute;
+  width: 550px;
+  font-size: 20px;
+  color: #141c51;
+  height: 250px;
+  background-color: var(--white);
+  z-index: 10;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+}
+.section-home-3 .part1 h3 {
+  color: #141c51;
+  font-size: 26px;
+  margin-left: 0;
+}
+.section-home-3 .part2 {
+  position: absolute;
+  width: 550px;
+  height: 250px;
+  top: 10px;
+  left: 10px;
+  background-color: var(--dark-blue);
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.3); /* Add box shadow */
+}
+
+.section-home-3 .flex-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 87%;
+}
+
+.section-home-3 button {
+  padding: 10px 8px;
+  margin-bottom: 10rem;
+  width: 13rem;
+  height: 4rem;
+  opacity: 1;
+  text-align: center;
+  font-size: 22px;
+  border: none;
+  color: var(--white);
+  background: #141c51;
+  border-radius: 30px;
+  /* cursor: pointer; */
+  transition: all 0.1s ease;
+}
+
+.section-home-3 button:hover {
+  transform: scale(1.03);
+}
+
+.section-home-3 .container-3 {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+
+.section-home-3 .home-mid-paragraph {
+  text-align: center;
+  position: relative;
+  text-align: center;
+  width: 70%;
+  color: #141c51;
+  font-size: 32px;
+  opacity: 0.9;
+}
+
+.section-home-3 .section-3-paragraph-footer {
+  margin-top: 1.5rem;
+  margin-bottom: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.section-home-3 .section-3-paragraph-footer .white-circle {
+  width: 80px;
+  height: 80px;
+  background-color: white;
+  border-radius: 50%;
+}
+.section-home-3 .section-3-paragraph-footer .next-to-circle {
+  margin-left: 0.8rem;
+  color: #141c51;
+  h2 {
+    font-size: 20px;
+    margin-left: 0;
+  }
+  h3 {
+    font-size: 15px;
+  }
+}
+
+/* animationss */
+/* 
+.section-home-1 .home-mid-paragraph.is-visible {
+  opacity: 1;
+}
+
+.section-home-2
+{
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.section-home-2.is-visible,
+.section-home-3.is-visible {
+  opacity: 1;
+}
+.section-home-1 , .section-home-3 {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+  scroll-snap-align: start; 
+
+}
+
+.section-home-1.is-visible {
+  opacity: 1;
+} */
+
+@keyframes slideInFromLeft {
+  0% {
+    transform: translateX(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateX(0);
+    opacity: 1;
+  }
+}
+
+.slide-in-left {
+  opacity: 1;
+  animation: slideInFromLeft 1s ease-in-out;
+}
