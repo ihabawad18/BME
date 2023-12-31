@@ -15,7 +15,7 @@
 
 .center-intro h1{
     font-size: 70px;
-    margin:0;
+    margin: 0;
     margin-bottom: 10px;
 }
 
@@ -95,3 +95,62 @@
     width: 170px;
 }
 
+/* responsiveness */
+
+@media only screen and (max-width: 768px) {
+    .home-section1 .center-intro h1{
+      font-size: 40px;
+    }
+    .home-section1 .center-intro {
+      margin-top: 20%;
+    }
+    .home-section1 .center-intro {
+      margin-top: 20%;
+    }
+    .home-section1 .center-intro button{
+        padding: 10px 20px;
+        font-size: 20px;
+    }
+
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .footer img{
+        margin:20px;
+        width: 90%;
+        height: 70px;
+    }
+    
+    .footer .container{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .footer ul{
+        padding: 0;
+        font-size: 15px;
+    }
+    
+    
+    
+    .footer h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+    
+    
+    .custom-ul{
+        font-size: 12px;
+    }
+    
+    .custom-li{
+        font-size: 11px;
+        width: 170px;
+        margin: auto;
+    }
+  }

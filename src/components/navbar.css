@@ -1,33 +1,99 @@
 .nav {
-    padding: 30px 20px 0px 50px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+  padding: 30px 20px 0px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
 }
 
-.nav img{
-    width: 350px;
-    height: 50px;
+.nav img {
+  width: 350px;
+  height: 50px;
 }
 
 .nav-links {
-    list-style: none;
-    display: flex;
+  list-style: none;
+  display: flex;
 }
 
 .nav-links li {
-    margin-right: 20px;
+  margin-right: 20px;
 }
 
 .nav-links a {
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-    font-size: 22px;
-    transition: color 0.3s ease;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  font-size: 22px;
+  transition: color 0.3s ease;
 }
-  
+
 .nav-links a:hover {
-    color: #141C51;
+  color: #141c51;
+}
+
+/* responsiveness */
+
+@media only screen and (max-width: 768px) {
+  .nav {
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .nav img {
+    margin-top: 24px;
+    margin-right: 10px;
+    width: 80%; /* Make the logo full width */
+    margin-bottom: 20px; /* Add some space between logo and links */
+  }
+
+  .nav-links {
+    display: none; /* Hide the links by default on small screens */
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    /* animation */
+    animation: slideInFromLeft 1s ease-in-out;
+    transition: all 0.2s ease; 
+  }
+
+  .nav-links.show {
+    display: flex; /* Show the links when the class is added */
+  }
+
+  .nav-links li {
+    margin: 10px 0;
+  }
+
+  .nav-links {
+    padding-left: 0px;
+  }
+
+  /* Hamburger icon */
+  .burger-icon {
+    display: block;
+    cursor: pointer;
+    color: white;
+    font-size: 45px;
+    transition: all 0.3s ease;
+  }
+  .red{
+    color: red;
+  }
+
+  /* animation of links */
+  @keyframes slideInFromLeft {
+    0% {
+      transform: translateX(-100%);
+      opacity: 0;
+    }
+    100% {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
 }
