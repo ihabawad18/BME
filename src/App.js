@@ -22,9 +22,23 @@ function App() {
           }
         />
         <Route path="/about-us" element={<About />} />
-        <Route path="/services" element={<Services />} />
+        <Route
+          path="/services"
+          element={
+            <Layout>
+              <Services />
+            </Layout>
+          }
+        />
         <Route path="/why-BME" element={<WhyBME />} />
-        <Route path="/contact-us" element={<Contact />} />
+        <Route
+          path="/contact-us"
+          element={
+            <Layout>
+              <Contact />
+            </Layout>
+          }
+        />
       </Routes>
     </BrowserRouter>
   );

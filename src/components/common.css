@@ -1,4 +1,7 @@
 /* layouts */
+.boss{
+    background-color: var(--light-gray);
+}
 .home-section1 {
   height: 750px;
   background-image: url("../images/bg-image.jpg");

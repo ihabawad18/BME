@@ -33,6 +33,14 @@
   transition: color 0.3s ease;
 }
 
+.nav-links .custom-nav{
+    color: #141c51;
+}
+
+.nav-links .custom-nav:hover{
+    opacity: 0.7;
+}
+
 .nav-links a:hover {
   color: #141c51;
 }
