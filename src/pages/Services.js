@@ -20,7 +20,7 @@ const Services = () => {
           </div>
         </div>
       </div>
-      <div className="flex-container">
+      <div className="flex-contain">
         <div className="inside-container">
           <p>01</p>
           <button>Regional Business Development Services</button>
