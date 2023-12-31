@@ -246,9 +246,10 @@
      font-size: 25px;
   }
   .section-home-2 button{
-     font-size: 13px;
+     font-size: 14px;
+     margin-left: 5px;
      padding: 5px;
-     width: 15rem;
+     width: 80%;
      height: 3rem;
   }
   .section-home-2 .row{
@@ -259,13 +260,13 @@
   }
   .section-home-3 h2{
     width: 90%;
-    text-align: center;
+    display: inline-block;
     font-size: 30px;
   }
 
   .section-home-3 .card1 {
-      height: 300px;
-      width: 400px;
+      height: 350px;
+      width: 90%;
       margin: auto;
       display: flex;
       justify-content: center;
@@ -273,10 +274,11 @@
   }
   
   .section-home-3 .part1 {
-    height: 250px;
-    width: 350px;
+    height: 300px;
+    width: 90%;
     font-size: 16px;
     margin: auto;
+    padding: 5%;
   }
   .section-home-3 .part1 h3 {
      text-align: center;
@@ -284,10 +286,10 @@
      font-weight: 700;
   }
   .section-home-3 .part2 {
-      height: 250px;
-      width: 350px;
+      height: 300px;
+      width: 90%;
       top: 35px;
-      left: 35px;
+      left: 27px;
   }
 
   .section-home-3 .flex-container {

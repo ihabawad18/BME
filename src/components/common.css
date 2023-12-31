@@ -97,7 +97,7 @@
 
 /* responsiveness */
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 600px) {
     .home-section1 .center-intro h1{
       font-size: 40px;
     }
@@ -122,8 +122,9 @@
     
     .footer img{
         margin:20px;
-        width: 90%;
-        height: 70px;
+        margin-left: 5px;
+        width: 70%;
+        height: 65px;
     }
     
     .footer .container{
@@ -133,13 +134,12 @@
     
     .footer ul{
         padding: 0;
-        font-size: 15px;
+        font-size: 18px;
     }
     
     
-    
     .footer h2{
-        font-size: 18px;
+        font-size: 22px;
         font-weight: 600;
     }
     
@@ -153,4 +153,54 @@
         width: 170px;
         margin: auto;
     }
+  }
+  @media only screen and (max-width: 800px) {
+    .footer{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+    }
+    
+    .footer img{
+        margin:20px;
+        margin-left: 5px;
+        width: 70%;
+        height: 65px;
+    }
+    
+    .footer .container{
+
+        max-width: 80%;
+        width: 100%;
+        margin: 0;
+        margin-left: 130px;
+        margin-top: 1rem;
+    }
+    .footer .col-md-4{
+        width: 33%;
+        padding: 0;
+    }
+    .footer ul{
+        padding-left: 20px;
+        font-size: 18px;
+    }
+    
+    
+    .footer h2{
+        font-size: 22px;
+        font-weight: 600;
+    }
+    
+    
+    .custom-ul{
+        font-size: 12px;
+    }
+    
+    .custom-li{
+        font-size: 11px;
+        width: 170px;
+        margin: auto;
+    }   
   }
