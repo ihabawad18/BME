@@ -17,6 +17,7 @@ h2{
 }
 .about-container-1,.about-container-2 {
   max-width: 100%;
+  padding-right: 40px;
   margin-bottom: 2.5%;
 }
 .about-second-row-p,.about-first-row-p {
@@ -26,7 +27,7 @@ h2{
 }
 
 .about-card2 ,.about-card1 {
-  width: 95%;
+  width: 100%;
   height: 300px;
   border-radius: 20px;
   background-color: white;
