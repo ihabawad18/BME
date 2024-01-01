@@ -21,7 +21,14 @@ function App() {
             </Layout2>
           }
         />
-        <Route path="/about-us" element={<About />} />
+        <Route
+          path="/about-us"
+          element={
+            <Layout>
+              <About />
+            </Layout>
+          }
+        />
         <Route
           path="/services"
           element={
