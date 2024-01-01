@@ -128,7 +128,7 @@
 
 @media only screen and (max-width:767px) {
   .services-section{
-    margin-left: 40px;
+    margin-left: 50px;
   }  
   .services-section .services-header {
         font-size: 25px;
@@ -139,18 +139,19 @@
         width: 100%;
         margin: 40px 0px;
       }
-
+      
       .services-section .col-md-6{
         display: flex;
         flex-direction: column;
         align-items: center;
         justify-items: center;
+        padding: 0%;
       }
     
       .services-section .services-side {
         color: #141c51;
         font-weight: 500;
-        font-size: 35px;
+        font-size: 30px;
         margin-top: 20px;
         margin-left: 1px;
         text-align: center;
@@ -158,11 +159,12 @@
       }
     
       .services-section .services-side span {
-        font-size: 45px;
+        font-size: 40px;
       }
     
       .services-section .side-image {
-        width: 100%;
+        
+        width: 95%;
         height: 250px;
       }
     
@@ -181,7 +183,7 @@
       }
     
       .flex-contain .inside-container p {
-        font-size: 40px;
+        font-size: 32px;
         color: #141c51;
         font-weight: 500;
         margin: 0;
@@ -189,7 +191,8 @@
     
       .flex-contain button {
         padding: 8px;
-        width: 12rem;
-        height: 3.5rem;
+        font-size: 13.5px;
+        width: 12.3rem;
+        height: 3.7rem;
       }    
 }
