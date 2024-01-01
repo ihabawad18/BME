@@ -127,7 +127,10 @@
 }
 
 @media only screen and (max-width:767px) {
-    .services-section .services-header {
+  .services-section{
+    margin-left: 40px;
+  }  
+  .services-section .services-header {
         font-size: 25px;
       }
     
