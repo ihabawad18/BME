@@ -99,3 +99,69 @@
         margin-top: 10px;
     }
 }
+
+@media only screen and (min-width: 800px) and (max-width: 1000px) {
+  
+  .contact-header{
+    font-size: 30px;
+  } 
+  .contact-paragraph{
+    margin-top: 30px;
+    font-size: 18px;
+  }
+  .contact-form{
+    width: 80%;
+    .container{
+      display: block;
+      max-width: 100%;
+      width: 100%;
+    }
+    .custom-row{
+      width: 100%;
+    }
+    .col-md-6{
+      width: 100%;
+    }
+    label{
+      font-size: 20px;
+    }
+    input{
+      width: 45%;
+    }
+    input[name="message"]{
+      width: 65%;
+    }
+  }
+  .contact-info{
+    .container{
+        margin: 0;
+        max-width: 100%;
+        width: 100%;
+    }
+    .flexing{
+        display: flex;
+        align-items: center;
+        margin: 10px 0px;
+        
+    }
+    .col-md-6{
+        padding-left: 0;
+    }
+    h2{
+        color:#141C51;
+        font-size: 20px;
+        margin-left: 10px;
+        margin-top: 8px;
+    }
+    i{
+        font-size: 22px;
+    }
+    p{
+        color:#141C51;
+        width: 70%;
+        font-size: 17px;
+        margin-top: 10px;
+    }
+}
+}
+

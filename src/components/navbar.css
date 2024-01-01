@@ -41,6 +41,7 @@
     opacity: 0.7;
 }
 
+
 .nav-links a:hover {
   color: #141c51;
 }
@@ -94,6 +95,11 @@
     font-size: 40px;
     transition: all 0.3s ease;
   }
+
+  .custom-burger{
+    color: #141c51;
+  }
+
   .red{
     color: red;
   }

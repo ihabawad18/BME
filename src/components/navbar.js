@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import whiteLogo from "../images/white-logo-02.png";
 import { Link } from "react-router-dom";
 import "./navbar.css";
-const Navbar = ({image,custom_nav}) => {
+const Navbar = ({image,custom_nav,custom_burger}) => {
   const [showLinks, setShowLinks] = useState(false);
 
   const toggleLinks = () => {
@@ -12,7 +12,7 @@ const Navbar = ({image,custom_nav}) => {
   return (
     <div className="nav">
       <img src={image?image:whiteLogo} alt="logo" />
-      <div className="burger-icon" onClick={toggleLinks}>
+      <div className={`burger-icon ${custom_burger}`} onClick={toggleLinks}>
         <i className={`fas ${showLinks ? "fa-times" : "fa-bars"}`}></i>
       </div>
       <ul className={`nav-links ${showLinks ? "show" : ""}`}>
