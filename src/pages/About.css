@@ -220,7 +220,8 @@ h2{
     }   
 }
 
-@media only screen and (max-width:580px) {
+@media only screen and (min-width:0px) and (max-width:580px) {
+
     .about-section h2{
         font-size: 25px;
     }
@@ -259,8 +260,19 @@ h2{
     .about-header{
         font-size: 25px;
     }
+
+    .founders-cards{
+        justify-content: flex-start;
+    }
+
+    .founder-card{
+        width: 260px;
+        height: 550px;
+        margin-left: 4%;
+    }
+    
     
     .founder-card p {
-        font-size: 13px;
+        font-size: 12px;
     }   
 }
