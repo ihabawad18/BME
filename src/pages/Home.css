@@ -268,13 +268,14 @@
       height: 350px;
       width: 90%;
       margin: auto;
+      margin-top: 15px;
       display: flex;
       justify-content: center;
       align-items: center;
   }
   
   .section-home-3 .part1 {
-    height: 300px;
+    height: 330px;
     width: 90%;
     font-size: 16px;
     margin: auto;
@@ -286,10 +287,10 @@
      font-weight: 700;
   }
   .section-home-3 .part2 {
-      height: 300px;
+      height: 330px;
       width: 90%;
-      top: 35px;
-      left: 27px;
+      top: 20px;
+      left: 25px;
   }
 
   .section-home-3 .flex-container {
@@ -301,7 +302,7 @@
   
   .section-home-3 button {
     padding: 7px;
-    margin-top: 10px;
+    margin-top: 15px;
     margin-bottom: 5rem;
     width: 12rem;
     height: 3rem;
