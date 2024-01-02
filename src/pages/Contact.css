@@ -193,10 +193,11 @@
       font-size: 20px;
     }
     input{
+      font-size: 15px;
       width: 200px;
     }
     input[name="message"]{
-      width: 300px;
+      width: 270px;
     }
     button{
       margin-left: 0px;
