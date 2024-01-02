@@ -5,12 +5,29 @@
   --gray: #707070;
 }
 
+/* fonts.css or fonts.scss */
+
+@font-face {
+  font-family: "SFT";
+  src: url('./fonts/SFT/SFTSchriftedSansTRIAL-Regular.otf') format('opentype');
+  /* Add additional src entries for different font file types if needed */
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'SFT_BOLD';
+  src: url('./fonts/SFT/SFTSchriftedSansTRIAL-Bold.otf') format('opentype');
+  /* Add additional src entries for different font file types if needed */
+}
+
 body {
   margin: 0;
-  font-family: marlide-display-variable, sans-serif;
-  font-style: normal;
-  font-variation-settings: "wght" 300; 
+  font-family: "SFT";
+  font-style: normal; 
   scroll-behavior: smooth; /* Enable smooth scrolling */       
 }
 
-
+h1,h2,h3,h4,h5,h6{
+  font-family: 'SFT_BOLD';
+}
