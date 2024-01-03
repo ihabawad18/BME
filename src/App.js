@@ -5,7 +5,7 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Services from "./pages/Services";
 import WhyBME from "./pages/WhyBME";
-import Navbar from "./components/navbar";
+
 import Layout from "./components/Layout";
 import Layout2 from "./components/Layout2";
 
