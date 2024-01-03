@@ -19,7 +19,7 @@
 
 /* form begins */
 
-.contact-section .contact-form  {
+.contact-section .contact-form {
   font-size: 23px;
   width: 70%;
   color: #141c51;
@@ -75,10 +75,10 @@
 }
 
 /* Vendor prefixes for Safari */
-@supports (-webkit-appearance:none) {
+@supports (-webkit-appearance: none) {
   .contact-section .contact-form input {
     -webkit-appearance: none;
-    appearance:inherit;
+    appearance: inherit;
   }
 
   .contact-section .contact-form button {
@@ -89,170 +89,177 @@
 
 /* form ends */
 
-.contact-info{
-    .container{
-        margin: 0;
-    }
-    .flexing{
-        display: flex;
-        align-items: center;
-        margin: 10px 0px;
-        
-    }
-    .col-md-6{
-        padding-left: 0;
-    }
-    h2{
-        color:#141C51;
-        font-size: 30px;
-        margin-left: 10px;
-        margin-top: 8px;
-    }
-    i{
-        font-size: 27px;
-    }
-    p{
-        color:#141C51;
-        width: 70%;
-        font-size: 18px;
-        margin-top: 10px;
-    }
+.contact-section .contact-info {
+  .container {
+    margin: 0;
+  }
+  .flexing {
+    display: flex;
+    align-items: center;
+    margin: 10px 0px;
+  }
+  .col-md-6 {
+    padding-left: 0;
+  }
+  h2 {
+    color: #141c51;
+    font-size: 30px;
+    margin-left: 10px;
+    margin-top: 8px;
+  }
+  i {
+    font-size: 27px;
+  }
+  p {
+    color: #141c51;
+    width: 70%;
+    font-size: 18px;
+    margin-top: 10px;
+  }
+}
+
+/* Vendor prefixes for Safari */
+@supports (-webkit-appearance: none) {
+  .contact-section .contact-info h2,
+  .contact-section .contact-info i,
+  .contact-section .contact-info p,
+  .contact-section .contact-info .col-md-6,
+  .contact-section .contact-info .flexing,
+  .contact-section .contact-info .container {
+    -webkit-appearance: none;
+    appearance: inherit;
+  }
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1000px) {
-  
-  .contact-header{
+  .contact-header {
     font-size: 30px;
-  } 
-  .contact-paragraph{
+  }
+  .contact-paragraph {
     margin-top: 30px;
     font-size: 18px;
   }
-  .contact-section .contact-form{
+  .contact-section .contact-form {
     width: 80%;
-    .container{
+    .container {
       display: block;
       max-width: 100%;
       width: 100%;
     }
-    .custom-row{
+    .custom-row {
       width: 100%;
     }
-    .col-md-6{
+    .col-md-6 {
       width: 100%;
     }
-    label{
+    label {
       font-size: 20px;
     }
-    input{
+    input {
       width: 45%;
     }
-    input[name="message"]{
+    input[name="message"] {
       width: 65%;
     }
   }
-  .contact-info{
-    .container{
-        margin: 0;
-        max-width: 100%;
-        width: 100%;
+  .contact-info {
+    .container {
+      margin: 0;
+      max-width: 100%;
+      width: 100%;
     }
-    .flexing{
-        display: flex;
-        align-items: center;
-        margin: 10px 0px;
-        
+    .flexing {
+      display: flex;
+      align-items: center;
+      margin: 10px 0px;
     }
-    .col-md-6{
-        padding-left: 0;
+    .col-md-6 {
+      padding-left: 0;
     }
-    h2{
-        color:#141C51;
-        font-size: 20px;
-        margin-left: 10px;
-        margin-top: 8px;
+    h2 {
+      color: #141c51;
+      font-size: 20px;
+      margin-left: 10px;
+      margin-top: 8px;
     }
-    i{
-        font-size: 22px;
+    i {
+      font-size: 22px;
     }
-    p{
-        color:#141C51;
-        width: 70%;
-        font-size: 17px;
-        margin-top: 10px;
+    p {
+      color: #141c51;
+      width: 70%;
+      font-size: 17px;
+      margin-top: 10px;
     }
+  }
 }
-}
-
 
 @media only screen and (max-width: 799px) {
-  
-  .contact-header{
+  .contact-header {
     font-size: 28px;
-  } 
-  .contact-paragraph{
+  }
+  .contact-paragraph {
     margin-top: 33px;
     font-size: 17px;
   }
-  .contact-section .contact-form{
+  .contact-section .contact-form {
     width: 100%;
-    .container{
+    .container {
       display: block;
       max-width: 100%;
       width: 100%;
     }
-    .custom-row{
+    .custom-row {
       display: block;
       width: 100%;
     }
-    .col-md-6{
+    .col-md-6 {
       width: 100%;
     }
-    label{
+    label {
       font-size: 20px;
     }
-    input{
+    input {
       font-size: 15px;
       width: 200px;
     }
-    input[name="message"]{
+    input[name="message"] {
       width: 270px;
     }
-    button{
+    button {
       margin-left: 0px;
       padding: 5px;
       width: 7rem;
     }
   }
-  .contact-info{
-    .container{
-        margin: 0;
-        max-width: 100%;
-        width: 100%;
+  .contact-info {
+    .container {
+      margin: 0;
+      max-width: 100%;
+      width: 100%;
     }
-    .flexing{
-        display: flex;
-        align-items: center;
-        margin: 10px 0px;
-        
+    .flexing {
+      display: flex;
+      align-items: center;
+      margin: 10px 0px;
     }
-    .col-md-6{
-        padding-left: 0;
+    .col-md-6 {
+      padding-left: 0;
     }
-    h2{
-        color:#141C51;
-        font-size: 18px;
-        margin-left: 10px;
-        margin-top: 8px;
+    h2 {
+      color: #141c51;
+      font-size: 18px;
+      margin-left: 10px;
+      margin-top: 8px;
     }
-    i{
-        font-size: 20px;
+    i {
+      font-size: 20px;
     }
-    p{
-        color:#141C51;
-        width: 70%;
-        font-size: 16px;
-        margin-top: 10px;
+    p {
+      color: #141c51;
+      width: 70%;
+      font-size: 16px;
+      margin-top: 10px;
     }
-}
+  }
 }
