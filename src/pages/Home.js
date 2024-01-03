@@ -1,8 +1,6 @@
 import React from "react";
 import "./Home.css";
 const Home = () => {
-  
-
   return (
     <section className="section-home">
       {/* section 1 */}
@@ -91,7 +89,10 @@ const Home = () => {
             <div className="col-md-6">
               <div className="inside-container">
                 <p>10</p>
-                <button>Access to innovative <br/>international corporations</button>
+                <button>
+                  Access to innovative <br />
+                  international corporations
+                </button>
               </div>
             </div>
           </div>
@@ -189,40 +190,39 @@ const Home = () => {
         </div>
       </div>
       {/* temp */}
-
-      <form
-        className="contact-form"
-        action="mailto:recipient@example.com"
-        method="post"
-      >
-        <div className="custom-row">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-6">
-                <label>Name</label>
-                <input name="name" id="name" type="text" />
+      <section className="contact-section">
+        <form
+          className="contact-form"
+          action="mailto:recipient@example.com"
+          method="post"
+        >
+          <div className="custom-row">
+            <div className="container">
+              <div className="row">
+                <div className="col-md-6">
+                  <label>Name</label>
+                  <input name="name" id="name" type="text" />
+                </div>
+                <div className="col-md-6">
+                  <label>Company Name</label>
+                  <input name="company-name" id="company-name" type="text" />
+                </div>
               </div>
-              <div className="col-md-6">
-                <label>Company Name</label>
-                <input name="company-name" id="company-name" type="text" />
+              <div className="row">
+                <div className="col-md-6">
+                  <label>Email</label>
+                  <input name="email" id="email" type="text" />
+                </div>
+                <div className="col-md-6">
+                  <label>Message</label>
+                  <input name="message" id="message" type="text" />
+                </div>
               </div>
             </div>
-            <div className="row">
-              <div className="col-md-6">
-                <label>Email</label>
-                <input name="email" id="email" type="text" />
-              </div>
-              <div className="col-md-6">
-                <label>Message</label>
-                <input name="message" id="message" type="text" />
-              </div>
-            </div>
+            <button type="button">Send</button>
           </div>
-          <button type="button">
-            Send
-          </button>
-        </div>
-      </form>
+        </form>
+      </section>
     </section>
   );
 };

@@ -17,7 +17,7 @@
   width: 70%;
 }
 
-.contact-form  {
+.contact-section .contact-form  {
   font-size: 23px ;
   width: 70% ;
   color: #141c51 ;
@@ -110,7 +110,7 @@
     margin-top: 30px;
     font-size: 18px;
   }
-  .contact-form{
+  .contact-section .contact-form{
     width: 80%;
     .container{
       display: block;
@@ -176,7 +176,7 @@
     margin-top: 33px;
     font-size: 17px;
   }
-  .contact-form{
+  .contact-section .contact-form{
     width: 100%;
     .container{
       display: block;
