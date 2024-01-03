@@ -20,6 +20,16 @@
   src: url('./fonts/SFT/SFTSchriftedSansTRIAL-Bold.otf') format('opentype');
   /* Add additional src entries for different font file types if needed */
 }
+@font-face {
+  font-family: 'MARLIDE_DISPLAY';
+  src: url('./fonts/MarlideDisplay/MarlideDisplay_Regular.woff') format('woff');
+  /* Add additional src entries for different font file types if needed */
+}
+@font-face {
+  font-family: 'MARLIDE_DISPLAY_BOLD';
+  src: url('./fonts/MarlideDisplay/MarlideDisplay_Bold.woff') format('woff');
+  /* Add additional src entries for different font file types if needed */
+}
 
 body {
   margin: 0;
@@ -29,5 +39,9 @@ body {
 }
 
 h1,h2,h3,h4,h5,h6{
-  font-family: 'SFT_BOLD';
+  font-family: 'MARLIDE_DISPLAY';
+}
+
+.card1 h3{
+  font-family: 'MARLIDE_DISPLAY_BOLD';
 }

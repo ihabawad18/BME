@@ -37,7 +37,14 @@ function App() {
             </Layout>
           }
         />
-        <Route path="/why-BME" element={<WhyBME />} />
+        <Route
+          path="/why-BME"
+          element={
+            <Layout>
+              <WhyBME />
+            </Layout>
+          }
+        />
         <Route
           path="/contact-us"
           element={

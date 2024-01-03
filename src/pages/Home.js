@@ -24,14 +24,14 @@ const Home = () => {
       <div className="section-home-2">
         <h2>Our Services</h2>
         <div className="container">
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <div className="inside-container">
                 <p>01</p>
                 <button>Regional Business Development Services</button>
               </div>
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <div className="inside-container">
                 <p>06</p>
                 <button>Professional Mentoring and Counseling</button>
@@ -39,43 +39,43 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <div className="inside-container">
                 <p>02</p>
                 <button>Sales Strategy Development</button>
               </div>
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <div className="inside-container">
                 <p>07</p>
-                <button>Setup of local branches and/or offices</button>
+                <button>Setup of Local Branches and/or offices</button>
               </div>
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <div className="inside-container">
                 <p>03</p>
                 <button>Marketing Advisory</button>
               </div>
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <div className="inside-container">
                 <p>08</p>
                 <button>Extensive Networking Opportunities</button>
               </div>
             </div>
           </div>
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <div className="inside-container">
                 <p>04</p>
-                <button>Collaboration with companies in the region</button>
+                <button>Collaboration with Companies in the Region</button>
               </div>
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <div className="inside-container">
                 <p>09</p>
                 <button>Partnership Opportunities</button>
@@ -83,17 +83,17 @@ const Home = () => {
             </div>
           </div>
 
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <div className="inside-container">
                 <p>05</p>
                 <button>Market Research</button>
               </div>
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <div className="inside-container">
                 <p>10</p>
-                <button>Access to innovative international corporations</button>
+                <button>Access to innovative <br/>international corporations</button>
               </div>
             </div>
           </div>
@@ -106,8 +106,8 @@ const Home = () => {
         <h2>Why Expand To The Middle East</h2>
         <div className="container">
           {/* 1 */}
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <div className="card1">
                 <div className="part1">
                   <h3>A Natural Business Hub</h3>
@@ -120,7 +120,7 @@ const Home = () => {
                 <div className="part2"></div>
               </div>{" "}
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <div className="card1">
                 <div className="part1">
                   <h3>Future Potential for Expansion</h3>
@@ -137,8 +137,8 @@ const Home = () => {
             </div>
           </div>
           {/* 2 */}
-          <div class="row">
-            <div class="col-md-6">
+          <div className="row">
+            <div className="col-md-6">
               <div className="card1">
                 <div className="part1">
                   <h3>Government Support</h3>
@@ -151,7 +151,7 @@ const Home = () => {
                 <div className="part2"></div>
               </div>{" "}
             </div>
-            <div class="col-md-6">
+            <div className="col-md-6">
               <div className="card1">
                 <div className="part1">
                   <h3>100% Foreign Ownership Opportunities</h3>
