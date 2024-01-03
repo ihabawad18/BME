@@ -18,24 +18,24 @@
 }
 
 .contact-form  {
-  font-size: 23px !important;
-  width: 70% !important;
-  color: #141c51 !important;
+  font-size: 23px ;
+  width: 70% ;
+  color: #141c51 ;
   label {
-    display: block !important;
+    display: block ;
   }
   input {
-    background-color: transparent !important;
-    outline: none !important;
-    border: none !important;
-    font-size: 21px !important;
-    border-bottom: 3px solid #141c51 !important;
-    border-radius: 2px !important;
-    width: 60% !important;
+    background-color: transparent ;
+    outline: none ;
+    border: none ;
+    font-size: 21px ;
+    border-bottom: 3px solid #141c51 ;
+    border-radius: 2px ;
+    width: 60% ;
   }
   .col-md-6 {
-    padding-left: 0 !important;
-    margin-bottom: 20px !important;
+    padding-left: 0 ;
+    margin-bottom: 20px ;
   }
  
   input[name="message"] {

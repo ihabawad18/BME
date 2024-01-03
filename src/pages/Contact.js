@@ -28,7 +28,6 @@ const Contact = () => {
         className="contact-form"
         action="mailto:recipient@example.com"
         method="post"
-        encType="text/plain"
       >
         <div className="custom-row">
           <div className="container">
