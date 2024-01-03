@@ -17,59 +17,77 @@
   width: 70%;
 }
 
+/* form begins */
+
 .contact-section .contact-form  {
-  font-size: 23px ;
-  width: 70% ;
-  color: #141c51 ;
-  label {
-    display: block ;
-  }
-  input {
-    background-color: transparent ;
-    outline: none ;
-    border: none ;
-    font-size: 21px ;
-    border-bottom: 3px solid #141c51 ;
-    border-radius: 2px ;
-    width: 60% ;
-  }
-  .col-md-6 {
-    padding-left: 0 ;
-    margin-bottom: 20px ;
-  }
- 
-  input[name="message"] {
-    width: 90% ;
-  }
-  button {
-    padding: 5px 5px ;
-    width: 9rem ;
-    height: 3.5rem ;
-    opacity: 1 ;
-    text-align: center ;
-    font-size: 20px ;
-    border: none ;
-    align-self: flex-end ;
-    margin-left: 10px ;
-    
-    color: var(--white) ;
-    background: #141c51 ;
-    border-radius: 30px ;
-    
-    /* cursor: pointer; */
-    transition: all 0.1s ease ;
-  }
-  button:hover{
-    transform: scale(1.03) ;
-  }
-
-  .custom-row{
-    display: flex ;
-    margin-top: 4rem ;
-    margin-bottom: 3rem ;
-  }
-
+  font-size: 23px;
+  width: 70%;
+  color: #141c51;
 }
+
+.contact-section .contact-form label {
+  display: block;
+}
+
+.contact-section .contact-form input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  font-size: 21px;
+  border-bottom: 3px solid #141c51;
+  border-radius: 2px;
+  width: 60%;
+}
+
+.contact-section .contact-form .col-md-6 {
+  padding-left: 0;
+  margin-bottom: 20px;
+}
+
+.contact-section .contact-form input[name="message"] {
+  width: 90%;
+}
+
+.contact-section .contact-form button {
+  padding: 5px 5px;
+  width: 9rem;
+  height: 3.5rem;
+  opacity: 1;
+  text-align: center;
+  font-size: 20px;
+  border: none;
+  align-self: flex-end;
+  margin-left: 10px;
+  color: var(--white);
+  background: #141c51;
+  border-radius: 30px;
+  transition: all 0.1s ease;
+}
+
+.contact-section .contact-form button:hover {
+  transform: scale(1.03);
+}
+
+.contact-section .contact-form .custom-row {
+  display: flex;
+  margin-top: 4rem;
+  margin-bottom: 3rem;
+}
+
+/* Vendor prefixes for Safari */
+@supports (-webkit-appearance:none) {
+  .contact-section .contact-form input {
+    -webkit-appearance: none;
+    appearance:inherit;
+  }
+
+  .contact-section .contact-form button {
+    -webkit-appearance: none;
+    appearance: inherit;
+  }
+}
+
+/* form ends */
 
 .contact-info{
     .container{
