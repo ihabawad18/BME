@@ -75,7 +75,7 @@
 }
 
 /* Vendor prefixes for Safari */
-@supports (-webkit-appearance: none) {
+/* @supports (-webkit-appearance: none) {
   .contact-section .contact-form input {
     -webkit-appearance: none;
     appearance: inherit;
@@ -85,7 +85,7 @@
     -webkit-appearance: none;
     appearance: inherit;
   }
-}
+} */
 
 /* form ends */
 
