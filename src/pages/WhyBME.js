@@ -1,7 +1,58 @@
 import React from "react";
 import "./WhyBME.css";
 import Ellipse from "../images/ellipse.png";
+import { useState } from "react";
 const WhyBME = () => {
+  var Message = (
+    <p>
+      Projected market worth in the UAE of more than{" "}
+      <span>$31 billion by 2026 </span>
+    </p>
+  );
+
+  const [displayMessage, setdisplayMessage] = useState(Message);
+
+  const arrayMessages = [
+    <p>
+      Projected market worth in the UAE of more than{" "}
+      <span>$31 billion by 2026 </span>
+    </p>,
+    <p>
+      Predicted market growth of more than{" "}
+      <span>50% between 2020 and 2025 </span> from{" "}
+      <span>$8 trillion to $12.8 trillion</span>
+    </p>,
+    <p>
+      <span>30% of global trade</span> passes through the Red Sea and the Gulf
+      of Aden{" "}
+    </p>,
+    <p>
+      Estimated worth of the UAE national{" "}
+      <span>digital economy by 2031 is US$140 billion</span>
+    </p>,
+    <p>
+      Contribution of the digital economy to the UAE’s GDP to{" "}
+      <span>double from 9.7% to over 20% by 2031</span>
+    </p>,
+  ];
+
+  const handleOnClick = (i) => {
+    console.log(displayMessage);
+    console.log(arrayMessages);
+    let temp = "circle" + i;
+    let element = document.getElementById(temp);
+    const circleElements = document.getElementsByClassName("circle");
+
+    for (var j = 0; j < circleElements.length; j++) {
+      circleElements[j].classList.remove("active");
+    }
+    if (element) {
+      setdisplayMessage(arrayMessages[i - 1]);
+      console.log(displayMessage);
+      element.classList.add("active");
+    }
+  };
+
   return (
     <div className="whybme-section">
       <h2 className="why-header">WHY EXPAND TO THE MIDDLE EAST?</h2>
@@ -99,6 +150,55 @@ const WhyBME = () => {
             </p>
           </div>
         </div>
+      </div>
+
+      <h2 className="me-stats-header">MIDDLE EAST MARKET STATS</h2>
+      <div className="parent">
+        <div className="outline">
+          <div className="circles-parent">
+            <div
+              id="circle1"
+              className="circle active"
+              style={{ "--i": 1 }}
+              onClick={() => handleOnClick(1)}
+            >
+              <h2>1</h2>
+            </div>
+            <div
+              id="circle2"
+              className="circle circle2"
+              style={{ "--i": 2 }}
+              onClick={() => handleOnClick(2)}
+            >
+              <h2>2</h2>
+            </div>
+            <div
+              id="circle3"
+              className="circle circle3"
+              style={{ "--i": 3 }}
+              onClick={() => handleOnClick(3)}
+            >
+              <h2>3</h2>
+            </div>
+            <div
+              id="circle4"
+              className="circle circle4"
+              style={{ "--i": 4 }}
+              onClick={() => handleOnClick(4)}
+            >
+              <h2>4</h2>
+            </div>
+            <div
+              id="circle5"
+              className="circle circle5"
+              style={{ "--i": 5 }}
+              onClick={() => handleOnClick(5)}
+            >
+              <h2>5</h2>
+            </div>
+          </div>
+        </div>
+        <div className="sub-outline">{displayMessage}</div>
       </div>
     </div>
   );

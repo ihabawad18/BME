@@ -21,6 +21,11 @@
   /* Add additional src entries for different font file types if needed */
 }
 @font-face {
+  font-family: 'SFT_DEMI_BOLD';
+  src: url('./fonts/SFT/SFTSchriftedSansTRIAL-DemiBold.otf') format('opentype');
+  /* Add additional src entries for different font file types if needed */
+}
+@font-face {
   font-family: 'MARLIDE_DISPLAY';
   src: url('./fonts/MarlideDisplay/MarlideDisplay_Regular.woff') format('woff');
   /* Add additional src entries for different font file types if needed */
