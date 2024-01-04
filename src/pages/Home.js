@@ -1,17 +1,23 @@
 import React from "react";
 import "./Home.css";
+import apo from "../images/apo.png";
 const Home = () => {
   return (
     <section className="section-home">
       {/* section 1 */}
       {/* animate__animated animate__bounce */}
       <div className="section-home-1 ">
-        {/* <span className="custom-quotation">“</span> */}
         <p className="home-mid-paragraph">
+          {/* <span>
+            <img src={apo} />
+          </span> */}
           BME streamlines your Middle East expansion, navigating the
           complexities of local labor laws, compliance, and culture. Our expert
           guidance and powerful network ensure sustainable business growth in
           the region.
+          {/* <span className="custom-apo">
+            <img src={apo} />
+          </span> */}
         </p>
       </div>
 
@@ -106,7 +112,7 @@ const Home = () => {
         <div className="container">
           {/* 1 */}
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 col-12">
               <div className="card1">
                 <div className="part1">
                   <h3>A Natural Business Hub</h3>
@@ -119,7 +125,7 @@ const Home = () => {
                 <div className="part2"></div>
               </div>{" "}
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-12">
               <div className="card1">
                 <div className="part1">
                   <h3>Future Potential for Expansion</h3>
@@ -137,7 +143,7 @@ const Home = () => {
           </div>
           {/* 2 */}
           <div className="row">
-            <div className="col-md-6">
+            <div className="col-md-6 col-12">
               <div className="card1">
                 <div className="part1">
                   <h3>Government Support</h3>
@@ -150,7 +156,7 @@ const Home = () => {
                 <div className="part2"></div>
               </div>{" "}
             </div>
-            <div className="col-md-6">
+            <div className="col-md-6 col-12">
               <div className="card1">
                 <div className="part1">
                   <h3>100% Foreign Ownership Opportunities</h3>

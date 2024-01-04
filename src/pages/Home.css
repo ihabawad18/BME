@@ -7,6 +7,7 @@
 .section-home-1 {
   padding-top: 20%;
   padding-bottom: 15%;
+  height: 900px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -14,12 +15,37 @@
 }
 
 .section-home-1 .home-mid-paragraph {
-  position: relative;
+  /* position: relative; */
   text-align: center;
-  width: 70%;
+  width: 65%;
   color: #141c51;
-  font-size: 35px;
+  font-size: 37px;
   opacity: 0.9;
+}
+
+.section-home-1 .home-mid-paragraph span{
+  position: absolute;
+  left:100px;
+  top: 300px;
+}
+
+.section-home-1 .home-mid-paragraph .custom-apo{
+  position: absolute;
+  left: 1000px;
+  right:0px;
+  top: 400px;
+}
+
+.section-home-1 span img{
+  width: 110px;
+  height: 210px;
+}
+
+
+.section-home-1 .custom-apo img{
+    width: 110px;
+    height: 260px;
+    transform: rotate(180deg);
 }
 
 .custom-quotation {
@@ -235,6 +261,74 @@
 }
 
 /* responsiveness */
+
+@media only screen and (min-width:768px) and (max-width:1240px) {
+  .section-home-2 .col-md-6 {
+    margin-top: 3%;
+  }
+  /* .section-home-3 h2 {
+    width: 90%;
+    display: inline-block;
+    font-size: 30px;
+  } */
+
+  .section-home-3 .card1 {
+    height: 350px;
+    width: 90%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .section-home-3 .part1 {
+    height: 300px;
+    width: 90%;
+    font-size: 16px;
+    margin: auto;
+    padding: 5%;
+  }
+  .section-home-3 .part1 h3 {
+    text-align: center;
+    font-size: 23px;
+  }
+  .section-home-3 .part2 {
+    height: 300px;
+    width: 90%;
+    top: 10%;
+    left: 7%;
+  }
+
+  .section-home-3 .flex-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+
+  .section-home-3 button {
+    padding: 7px;
+    margin-top: 15px;
+    margin-bottom: 5rem;
+    width: 12rem;
+    height: 3rem;
+    font-size: 18px;
+  }
+
+  .section-home-1 .home-mid-paragraph span{
+    position: absolute;
+    left:90px;
+    top: 230px;
+  }
+  
+  .section-home-1 .home-mid-paragraph .custom-apo{
+    position: absolute;
+    left:60%;
+    top: 430px;
+  }
+}
+
 
 @media only screen and (max-width: 768px) {
   .section-home-1 .home-mid-paragraph {
