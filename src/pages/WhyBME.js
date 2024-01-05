@@ -2,7 +2,37 @@ import React from "react";
 import "./WhyBME.css";
 import Ellipse from "../images/ellipse.png";
 import { useState } from "react";
+import { useInView } from "react-intersection-observer";
 const WhyBME = () => {
+  
+  const { ref: ref1, inView: ref1InView } = useInView({
+    threshold: 0.6,
+  });
+
+
+  const { ref: ref2, inView: ref2InView } = useInView({
+    threshold: 0.6,
+  });
+
+  const { ref: ref3, inView: ref3InView } = useInView({
+    threshold: 0.6,
+  });
+  const { ref: ref4, inView: ref4InView } = useInView({
+    threshold: 0.6,
+  });
+  const { ref: ref5, inView: ref5InView } = useInView({
+    threshold: 0.6,
+  });
+  const { ref: ref6, inView: ref6InView } = useInView({
+    threshold: 0.6,
+  });
+
+  const helper = (inView) => {
+    return `${inView ? "fadeOut fadeIn" : "fadeOut"}`;
+  };
+  
+  
+  
   var Message = (
     <p>
       Projected market worth in the UAE of more than{" "}
@@ -15,7 +45,7 @@ const WhyBME = () => {
   const arrayMessages = [
     <p>
       Projected market worth in the UAE of more than{" "}
-      <span>$31 billion by 2026 </span>
+      <br/><span>$31 billion by 2026 </span>
     </p>,
     <p>
       Predicted market growth of more than{" "}
@@ -23,7 +53,7 @@ const WhyBME = () => {
       <span>$8 trillion to $12.8 trillion</span>
     </p>,
     <p>
-      <span>30% of global trade</span> passes through the Red Sea and the Gulf
+      <span>30% of global trade</span> passes through the Red Sea and <br/>the Gulf
       of Aden{" "}
     </p>,
     <p>
@@ -32,7 +62,7 @@ const WhyBME = () => {
     </p>,
     <p>
       Contribution of the digital economy to the UAE’s GDP to{" "}
-      <span>double from 9.7% to over 20% by 2031</span>
+      <span>double from 9.7% to <br/> over 20% by 2031</span>
     </p>,
   ];
 
@@ -55,9 +85,9 @@ const WhyBME = () => {
 
   return (
     <div className="whybme-section">
-      <h2 className="why-header">WHY EXPAND TO THE MIDDLE EAST?</h2>
+      <h2 ref={ref1} className={`why-header ${helper(ref1InView)}`}>WHY EXPAND TO THE MIDDLE EAST?</h2>
       <div className="container row1">
-        <div className="row">
+        <div ref={ref2} className={`row ${helper(ref2InView)}`}>
           <div className="col-md-6 col-12">
             <div className="card1 custom-card1-2">
               <div className="part1">
@@ -65,7 +95,7 @@ const WhyBME = () => {
                 <p>
                   The geographical location, world-class infrastructure, and
                   highly qualified workforce make the Middle Eastern region an
-                  ideal business hub for Europe, Asia, and Africa.
+                  ideal business hub for Europe,<br/> Asia, and Africa.
                 </p>
               </div>
               <div className="part2"></div>
@@ -87,7 +117,7 @@ const WhyBME = () => {
             </div>
           </div>
         </div>
-        <div className="row row2">
+        <div ref={ref3} className={`row row2 ${helper(ref3InView)}`}>
           <div className="col-md-6 col-12">
             <div className="card1 ">
               <div className="part1">
@@ -121,7 +151,7 @@ const WhyBME = () => {
           </div>
         </div>
       </div>
-      <div className="flex-container-why">
+      <div ref={ref4} className={`flex-container-why ${helper(ref4InView)}`}>
         <div className="the-future">
           <h2>THE FUTURE OF THE MIDDLE EAST</h2>
           <p>
@@ -152,8 +182,8 @@ const WhyBME = () => {
         </div>
       </div>
 
-      <h2 className="me-stats-header">MIDDLE EAST MARKET STATS</h2>
-      <div className="parent">
+      <h2 ref={ref5} className={`me-stats-header ${helper(ref5InView)}`}>MIDDLE EAST MARKET STATS</h2>
+      <div ref={ref6} className={`parent ${helper(ref6InView)}`}>
         <div className="outline">
           <div className="circles-parent">
             <div

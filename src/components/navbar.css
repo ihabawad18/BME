@@ -48,21 +48,23 @@
 
 /* responsiveness */
 
-@media only screen and (max-width: 958px) {
+@media only screen and (max-width: 963px) {
   .nav {
     align-items: center;
     justify-content: space-between;
     transition: all 0.3s ease;
     padding-left: 50px;
-    padding-right: 50px;
+    padding-right: 35px;
   }
-
+  .nav a{
+    width: 70%;
+  }
   .nav img {
     margin-top: 24px;
     margin-right: 10px;
-    height: 50px;
-    width: 65%; /* Make the logo full width */
-    margin-bottom: 20px; /* Add some space between logo and links */
+    height: 25.4px;
+    width: 230px; 
+    margin-bottom: 20px;
   }
 
   .nav-links {

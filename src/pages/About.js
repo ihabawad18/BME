@@ -1,48 +1,72 @@
 import React from "react";
 import "./About.css";
 import SideImage from "../images/bme-logo-01.png";
+import { useInView } from "react-intersection-observer";
 const About = () => {
+  
+  const { ref: ref1, inView: ref1InView } = useInView({
+    threshold: 0.6,
+  });
+
+
+  const { ref: ref2, inView: ref2InView } = useInView({
+    threshold: 0.6,
+  });
+
+  const { ref: ref3, inView: ref3InView } = useInView({
+    threshold: 0.6,
+  });
+  const { ref: ref4, inView: ref4InView } = useInView({
+    threshold: 0.6,
+  });
+
+  const helper = (inView) => {
+    return `${inView ? "fadeOut fadeIn" : "fadeOut"}`;
+  };
+
   return (
     <div className="about-section">
       <h1 className="about-header">ABOUT US</h1>
-      {/* about container 1 */}
-      <div className="container about-container-1">
-        <div className="row">
-          <div className="col-md-6 col-12">
-            <p className="about-first-row-p">
-              Bridge Middle East provides expert guidance to companies looking
-              to expand into the Middle East.
-              <br />
-              <br />
-              Using our extensive network across the region, We help companies
-              build strategic partnerships with innovative international
-              corporations.
-            </p>
+      <div ref={ref1} className={`${helper(ref1InView)}`}>
+        {/* about container 1 */}
+        <div className="container about-container-1">
+          <div className="row">
+            <div className="col-md-6 col-12">
+              <p className="about-first-row-p">
+                Bridge Middle East provides expert guidance to companies looking
+                to expand into the Middle East.
+                <br />
+                <br />
+                Using our extensive network across the region, We help companies
+                build strategic partnerships with innovative international
+                corporations.
+              </p>
+            </div>
+            <div className="col-md-3 col-6">
+              <div className="about-card1"></div>
+            </div>
+            <div className="col-md-3 col-6">
+              <div className="about-card1"></div>
+            </div>
           </div>
-          <div className="col-md-3 col-6">
-            <div className="about-card1"></div>
-          </div>
-          <div className="col-md-3 col-6">
-            <div className="about-card1"></div>
+        </div>
+        {/* about container 2 */}
+        <div className="container about-container-2">
+          <div className="row">
+            <div className="col-md-6 col-12">
+              <div className="about-card2"></div>
+            </div>
+            <div className="col-md-6 col-12">
+              <p className="about-second-row-p">
+                BME offers a range of business development services,
+                partnerships, and networking opportunities which are crucial for
+                the success of business in the region.
+              </p>
+            </div>
           </div>
         </div>
       </div>
-      {/* about container 2 */}
-      <div className="container about-container-2">
-        <div className="row">
-          <div className="col-md-6 col-12">
-            <div className="about-card2"></div>
-          </div>
-          <div className="col-md-6 col-12">
-            <p className="about-second-row-p">
-              BME offers a range of business development services, partnerships,
-              and networking opportunities which are crucial for the success of
-              business in the region.
-            </p>
-          </div>
-        </div>
-      </div>
-      <div className="custom-container">
+      <div ref={ref2} className={`custom-container ${helper(ref2InView)}`}>
         <div className="custom-container2">
           <p>
             We have mastered the steps to a thriving business model here in the
@@ -55,7 +79,7 @@ const About = () => {
 
         <img src={SideImage} alt="side photo" />
       </div>
-      <p className="how-p">
+      <p ref={ref3} className={`how-p ${helper(ref3InView)}`}>
         We will simplify your expansion into the Middle East and help you to
         facilitate sustainable business growth.
         <br />
@@ -68,7 +92,7 @@ const About = () => {
         BME will guide you through every step of the process and connect you
         with a powerful network.
       </p>
-      <div className="founders-section">
+      <div ref={ref4} className={`founders-section ${helper(ref4InView)}`}>
         <h2>Our Founders</h2>
         <div className="founders-cards">
           <div className="founder-card">

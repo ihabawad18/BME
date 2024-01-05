@@ -5,9 +5,9 @@
   margin: 0px;
 }
 .section-home-1 {
-  padding-top: 20%;
-  padding-bottom: 15%;
-  height: 900px;
+  /* padding-top: 15%;
+  padding-bottom: 10%; */
+  height: 800px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -66,7 +66,7 @@
   margin-left: 5%;
   margin-bottom: 3%;
   color: #141c51;
-  font-size: 40px;
+  font-size: 60px;
 }
 
 .inside-container {
@@ -77,8 +77,9 @@
 
 .section-home-2 p {
   margin: 0;
-  margin-right: 3px;
-  font-size: 43px;
+  font-family: 'MARLIDE_DISPLAY';
+  margin-right: 12px;
+  font-size: 47px;
   color: #141c51;
 }
 
@@ -86,6 +87,7 @@
   padding: 10px 8px;
   width: 22rem;
   height: 4rem;
+  line-height: 1;
   opacity: 0.9;
   text-align: center;
   font-size: 17px;
@@ -105,11 +107,14 @@
 }
 
 /* section 3 why expand to middle east*/
+.section-home-3{
+  margin-top: 50px;
+}
 .section-home-3 h2 {
   margin-left: 5%;
   margin-bottom: 3%;
   color: #141c51;
-  font-size: 45px;
+  font-size: 60px;
 }
 
 .section-home-3 .card1 {
@@ -131,7 +136,7 @@
 }
 .section-home-3 .part1 h3 {
   color: #141c51;
-  font-size: 26px;
+  font-size: 31px;
   margin-left: 0;
   font-weight: 700;
 }
@@ -153,7 +158,7 @@
 
 .section-home-3 button {
   padding: 10px 8px;
-  margin-bottom: 10rem;
+  /* margin-bottom: 10rem; */
   width: 13rem;
   height: 4rem;
   opacity: 1;
@@ -266,11 +271,7 @@
   .section-home-2 .col-md-6 {
     margin-top: 3%;
   }
-  /* .section-home-3 h2 {
-    width: 90%;
-    display: inline-block;
-    font-size: 30px;
-  } */
+  
 
   .section-home-3 .card1 {
     height: 350px;
@@ -331,6 +332,10 @@
 
 
 @media only screen and (max-width: 768px) {
+  .section-home-3 h2,.section-home-2 h2 {  
+    margin-left: 50px;
+    font-size: 35px !important;
+  } 
   .section-home-1 .home-mid-paragraph {
     font-size: 25px;
   }
@@ -361,9 +366,12 @@
     display: inline-block;
     font-size: 30px;
   }
+  .section-home-2 .container p{
+    font-size: 32px;
+  }
 
   .section-home-3 .card1 {
-    height: 350px;
+    height: 300px;
     width: 90%;
     margin: auto;
     margin-top: 15px;
@@ -373,22 +381,22 @@
   }
 
   .section-home-3 .part1 {
-    height: 330px;
+    height: 250px;
     width: 90%;
-    font-size: 16px;
+    font-size: 17px;
     margin: auto;
     padding: 5%;
   }
   .section-home-3 .part1 h3 {
     text-align: center;
-    font-size: 22px;
+    font-size: 23px;
     font-weight: 700;
   }
   .section-home-3 .part2 {
-    height: 330px;
+    height: 250px;
     width: 90%;
-    top: 20px;
-    left: 30px;
+    top: 35px;
+    left: 32px;
   }
 
   .section-home-3 .flex-container {

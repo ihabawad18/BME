@@ -2,7 +2,7 @@ h2{
     font-size: 40px;    
 }
 .about-section {
-  margin-left: 70px;
+  margin-left: 50px;
   color: var(--dark-blue);
   font-size: 30px;
 }
@@ -12,7 +12,7 @@ h2{
   margin-bottom: 2.5%;
   color: #141c51;
   font-weight: 500;
-  font-size: 40px;
+  font-size: 50px;
 }
 .about-container-1,.about-container-2 {
   max-width: 100%;
@@ -64,7 +64,7 @@ h2{
 }
 
 .about-section .custom-container2 h2{
-    font-size: 40px;
+    font-size: 45px;
     margin-top: 100px;
     width: 250px;
 }
@@ -107,7 +107,8 @@ h2{
 
 .founder-card h3{
     max-width: 90%;
-    font-size: 19px;
+    font-size: 20px;
+    font-family: "MARLIDE_DISPLAY_DEMIBOLD";
 }
 
 .founder-card h4{
@@ -225,6 +226,10 @@ h2{
     .about-section h2{
         font-size: 25px;
     }
+
+    .about-section .about-header{
+        font-size: 30px;
+    }
     .about-section .col-6,.col-12{
         margin-bottom: 20px;
     }
@@ -242,9 +247,21 @@ h2{
         height: 180px;
         
     }
-
+    .about-section .custom-container{
+        margin-bottom: 0px;
+        margin-top: 0px;
+    }
     .about-section .custom-container2{
         height: auto;
+        display: none;
+    }
+
+    .about-section .about-container-2{
+        margin-bottom: 0px;
+    }
+
+    .about-section .how-p{
+        margin-top: 0px;
     }
 
     .about-second-row-p, .about-first-row-p{
@@ -257,18 +274,24 @@ h2{
         width: 200px;
     }
 
-    .about-header{
+    /* .about-header{
         font-size: 25px;
+    } */
+
+    .founders-section h2{
+        font-size: 30px;
     }
 
+
     .founders-cards{
-        justify-content: flex-start;
+        justify-content: center;
+        margin-left: 0px;
     }
 
     .founder-card{
         width: 260px;
         height: 550px;
-        margin-left: 4%;
+        /* margin-left: 4%; */
     }
     
     

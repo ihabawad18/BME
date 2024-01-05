@@ -51,7 +51,8 @@
 }
 
 .flex-contain .inside-container p {
-  font-size: 50px;
+  font-size: 60px;
+  font-family: 'MARLIDE_DISPLAY';
   color: #141c51;
   font-weight: 500;
   margin: 0;
@@ -62,6 +63,7 @@
   width: 12rem;
   height: 5rem;
   opacity: 1;
+  line-height: 1.1;
   text-align: center;
   font-size: 15px;
   border: none;
@@ -134,19 +136,25 @@
 
 @media only screen and (max-width: 767px) {
   .services-section {
-    margin-left: 50px;
+    margin-left: 0px;
   }
   .services-section .services-header {
-    font-size: 25px;
+    font-size: 30px;
+    margin-left: 50px;
   }
 
   .services-section .container {
-    max-width: 100%;
+    max-width: 90%;
     width: 100%;
     margin: 40px 0px;
+    margin: auto;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    padding-left: 0px;
   }
 
   .services-section .col-md-6 {
+    padding-left: 0px !important;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -169,7 +177,7 @@
   }
 
   .services-section .side-image {
-    width: 95%;
+    width: 80%;
     height: 250px;
   }
 
@@ -180,6 +188,7 @@
     flex-wrap: wrap;
     margin: auto;
     width: 100%;
+    margin-bottom: 40px;
   }
 
   .flex-contain .inside-container {
@@ -188,7 +197,7 @@
   }
 
   .flex-contain .inside-container p {
-    font-size: 32px;
+    font-size: 34px;
     color: #141c51;
     font-weight: 500;
     margin: 0;

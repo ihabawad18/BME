@@ -11,7 +11,8 @@ const Navbar = ({image,custom_nav,custom_burger}) => {
 
   return (
     <div className="nav">
-      <img src={image?image:whiteLogo} alt="logo" />
+      <Link to="/"> <img src={image?image:whiteLogo} alt="logo" /></Link>
+     
       <div className={`burger-icon ${custom_burger}`} onClick={toggleLinks}>
         <i className={`fas ${showLinks ? "fa-times" : "fa-bars"}`}></i>
       </div>

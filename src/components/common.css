@@ -11,20 +11,25 @@
 }
 .center-intro {
   color: white;
-  margin: 7rem auto;
+  margin: 4.5rem auto;
   text-align: center;
 }
 
-.center-intro h1 {
-  font-size: 70px;
+.center-intro p {
+  font-family: 'MARLIDE_DISPLAY';
+  font-size: 120px;
+  /* line-height: 120px; */
+  line-height: 1;
   margin: 0;
   margin-bottom: 10px;
 }
 
 .center-intro button {
   margin-top: 2rem;
+  width: 300px;
+  height: 70px;
   padding: 20px 50px;
-  font-size: 25px;
+  font-size: 24px;
   border: none;
   color: var(--white);
   background: #141c51 0% 0% no-repeat padding-box;
@@ -148,17 +153,18 @@
 }
 
 @media only screen and (max-width: 650px) {
-  .home-section1 .center-intro h1 {
-    font-size: 40px;
+  .home-section1 {
+    height: 600px;
+  }
+  .home-section1 .center-intro p {
+    font-size: 60px;
   }
   .home-section1 .center-intro {
-    margin-top: 20%;
-  }
-  .home-section1 .center-intro {
-    margin-top: 20%;
+    margin-top: 10%;
   }
   .home-section1 .center-intro button {
     padding: 10px 20px;
+    width: 250px;
     font-size: 20px;
   }
 

@@ -183,12 +183,13 @@
 .sub-outline p{
   font-size: 21px;
   position: absolute;
-  top: 50%;
+  top: 58%;
   left: 50%;
-  margin-top: 50px;
+  /* margin-top: 60px; */
   transform: translate(-50%, -45%);
   width: 60%;
   text-align: center;
+  line-height: 1.2;
   color: #141c51;
   /* border: 1px solid black; */
   height: 100%;
@@ -389,7 +390,7 @@
   
   .sub-outline p{
     font-size: 18px;
-    transform: translate(-50%, -49%);
+    transform: translate(-50%, -45%);
   }
   
   
@@ -413,7 +414,8 @@
   }
 
   .whybme-section .why-header {
-    margin-left: 40px;
+    margin-left: 50px;
+    font-size: 30px;
     width: 80%;
   }
   .whybme-section .card1 {
@@ -423,20 +425,23 @@
     margin: auto;
     margin-top: 30px;
     width: 350px;
-    height: 500px;
+    height: 400px;
   }
 
   .whybme-section .part1 {
     width: 250px;
-    height: 450px;
-    
+    height: 350px;
+  }
+  .whybme-section .part1 h3{
+    font-size: 22px;
+    text-align: center;
   }
   .whybme-section .part1  p {
-    font-size: 17px;
+    font-size: 16px;
   }
   .whybme-section .part2 {
     width: 250px;
-    height: 450px;
+    height: 350px;
     left: 45px;
   }
 
@@ -447,7 +452,10 @@
     display: none;
   }
   .whybme-section .the-future {
-    margin-left: 40px;
+    margin-left: 50px;
+  }
+  .whybme-section .the-future h2{
+    margin-left: 0px;
   }
   .whybme-section .flex-container-why {
     flex-direction: column;
@@ -455,19 +463,22 @@
   }
   .whybme-section .flex-container-why .the-future {
     width: 80%;
+    
   }
   .whybme-section .flex-container-why .the-future-points p {
-    font-size: 17px;
+    font-size: 18px;
+    
   }
   .whybme-section .flex-container-why .the-future-points {
     margin-top: 0px;
-    margin-left: 40px;
+    margin-left: 50px;
     width: 80%;
   }
   
   .me-stats-header{
-    margin-left: 40px !important;
+    margin-left: 50px !important;
     margin-top: 50px;
+    font-size: 30px !important;
   }
   
   .parent{
@@ -480,6 +491,9 @@
   
   }
   
+  .sub-outline p{
+    top: 70%;
+  }
   .sub-outline{
     width: 250px;
     height: 250px;

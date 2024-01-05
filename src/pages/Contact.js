@@ -1,6 +1,12 @@
 import React from "react";
 import "./Contact.css";
+import { useInView } from "react-intersection-observer";
 const Contact = () => {
+  
+  const { ref: ref1, inView: ref1InView } = useInView({
+    threshold: 0.6,
+  });
+
   const clearFields = () => {
     // Open the mailto link in a new window
     const mailtoLink = `mailto:info@BME.com?subject=${
@@ -15,7 +21,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="contact-section">
+    <div ref={ref1} className={`contact-section ${ref1InView? "fadeOut fadeIn" : "fadeOut"}`}>
       <h1 className="contact-header">Contact Us</h1>
       <p className="contact-paragraph">
         Your inquiries are important to us. For questions regarding our

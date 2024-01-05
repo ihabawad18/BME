@@ -51,3 +51,13 @@ h1,h2,h3,h4,h5,h6{
 .card1 h3{
   font-family: 'MARLIDE_DISPLAY_BOLD';
 }
+
+
+.fadeOut {
+  opacity: 0;
+  transition: opacity 1s linear;
+}
+
+.fadeIn {
+  opacity: 1;
+}

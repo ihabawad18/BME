@@ -71,7 +71,7 @@
 .contact-section .contact-form .custom-row {
   display: flex;
   margin-top: 4rem;
-  margin-bottom: 3rem;
+  margin-bottom: 1rem;
 }
 
 /* Vendor prefixes for Safari */
@@ -96,6 +96,7 @@
 
 .contact-info .container {
   margin: 0;
+  margin-bottom: 1.5rem;
 }
 
 .contact-info .flexing {
@@ -204,8 +205,11 @@
 }
 
 @media only screen and (max-width: 799px) {
+  .contact-section{
+    margin-left: 50px;
+  }
   .contact-header {
-    font-size: 28px;
+    font-size: 30px;
   }
   .contact-paragraph {
     margin-top: 33px;
@@ -239,8 +243,9 @@
   }
   .contact-section .contact-form button {
     margin-left: 0px;
-    padding: 5px;
+    padding: 4px;
     width: 7rem;
+    height:3rem;
   }
 
 
@@ -259,12 +264,16 @@
   }
   .contact-section .contact-info h2 {
     color: #141c51;
-    font-size: 18px;
+    font-size: 23px;
     margin-left: 10px;
     margin-top: 8px;
   }
+
+  .contact-section{
+    margin-bottom: 20px;
+  }
   .contact-section .contact-info i {
-    font-size: 20px;
+    font-size: 22px;
   }
   .contact-section .contact-info p {
     color: #141c51;
