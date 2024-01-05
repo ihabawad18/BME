@@ -7,17 +7,17 @@ import { useInView } from "react-intersection-observer";
 const Home = () => {
   // Section 3
   const { ref: section3Ref, inView: section3InView } = useInView({
-    threshold: 0.6,
+    threshold: 0.2,
   });
 
   // Section 1
   const { ref: section1Ref, inView: section1InView } = useInView({
-    threshold: 0.6,
+    threshold: 0.2,
   });
 
   // Section 2
   const { ref: section2Ref, inView: section2InView } = useInView({
-    threshold: 0.6,
+    threshold: 0.2,
   });
 
   const helper = (inView) => {

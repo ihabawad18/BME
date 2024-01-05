@@ -6,25 +6,25 @@ import { useInView } from "react-intersection-observer";
 const WhyBME = () => {
   
   const { ref: ref1, inView: ref1InView } = useInView({
-    threshold: 0.6,
+    threshold: 0.2,
   });
 
 
   const { ref: ref2, inView: ref2InView } = useInView({
-    threshold: 0.6,
+    threshold: 0.2,
   });
 
   const { ref: ref3, inView: ref3InView } = useInView({
-    threshold: 0.6,
+    threshold: 0.2,
   });
   const { ref: ref4, inView: ref4InView } = useInView({
-    threshold: 0.6,
+    threshold: 0.2,
   });
   const { ref: ref5, inView: ref5InView } = useInView({
-    threshold: 0.6,
+    threshold: 0.2,
   });
   const { ref: ref6, inView: ref6InView } = useInView({
-    threshold: 0.6,
+    threshold: 0.2,
   });
 
   const helper = (inView) => {
