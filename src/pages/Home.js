@@ -101,10 +101,10 @@ const Home = () => {
         {/* section 1 */}
         <div ref={section1Ref} className={`section-home-1 ${helper(section1InView)}`}>
           <p className="home-mid-paragraph">
-            BME streamlines your Middle East expansion, navigating the
+            "BME streamlines your Middle East expansion, navigating the
             complexities of local labor laws, compliance, and culture. Our
             expert guidance and powerful network ensure sustainable business
-            growth in the region.
+            growth in the region."
           </p>
         </div>
 
