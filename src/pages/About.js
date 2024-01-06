@@ -6,12 +6,13 @@ import Image1 from "../images/BME PHOTOS/Qiddiyah-City-Center-Saudi-Arabia-Faceb
 import Image2 from "../images/BME PHOTOS/16.jpeg";
 import Image3 from "../images/BME PHOTOS/neom-saudi-arabia-0045.jpeg";
 
+import Founder1 from "../images/founders/prince.png";
+import Founder2 from "../images/founders/razaq.png";
+import Founder3 from "../images/founders/su.png";
 const About = () => {
-  
   const { ref: ref1, inView: ref1InView } = useInView({
     threshold: 0.2,
   });
-
 
   const { ref: ref2, inView: ref2InView } = useInView({
     threshold: 0.2,
@@ -48,12 +49,12 @@ const About = () => {
             </div>
             <div className="col-md-3 col-6">
               <div className="about-card1">
-                <img src={Image1}/>
+                <img src={Image1} />
               </div>
             </div>
             <div className="col-md-3 col-6">
               <div className="about-card1">
-                <img src={Image2}/>
+                <img src={Image2} />
               </div>
             </div>
           </div>
@@ -63,7 +64,7 @@ const About = () => {
           <div className="row">
             <div className="col-md-6 col-12">
               <div className="about-card2">
-                <img src={Image3}/>
+                <img src={Image3} />
               </div>
             </div>
             <div className="col-md-6 col-12">
@@ -106,7 +107,9 @@ const About = () => {
         <h2>Our Founders</h2>
         <div className="founders-cards">
           <div className="founder-card">
-            <div className="founder-card-image"></div>
+            <div className="founder-card-image">
+              <img src={Founder2} />
+            </div>
             <h3>RAZAQ SALEM</h3>
             <h4>FOUNDER & CEO</h4>
             <p>
@@ -118,7 +121,9 @@ const About = () => {
             </p>
           </div>
           <div className="founder-card">
-            <div className="founder-card-image"></div>
+            <div className="founder-card-image">
+              <img src={Founder1} />
+            </div>
             <h3>HRH PRINCE ABDULAZIZ BIN FAISAL BIN ABDUL MAJEED AL SAUD</h3>
             <h4>CHAIRMAN</h4>
             <p>
@@ -130,7 +135,9 @@ const About = () => {
             </p>
           </div>
           <div className="founder-card">
-            <div className="founder-card-image"></div>
+            <div className="founder-card-image">
+              <img src={Founder3} />
+            </div>
             <h3>SU KYUNG LEE</h3>
             <h4>MD & BUSINESS COORDINATOR</h4>
             <p>
