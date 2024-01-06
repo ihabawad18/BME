@@ -425,10 +425,11 @@
   }
   .whybme-section .card1 {
     display: flex;
-    justify-content: center;
+    /* justify-content: center; */
     margin: 0px;
-    margin: auto;
+    /* margin: auto; */
     margin-top: 30px;
+    margin-left: 7px;
     width: 350px;
     height: 400px;
   }
@@ -447,7 +448,7 @@
   .whybme-section .part2 {
     width: 250px;
     height: 350px;
-    left: 45px;
+    left: 20px;
   }
 
   .whybme-section .part3 {
@@ -461,6 +462,7 @@
   }
   .whybme-section .the-future h2{
     margin-left: 0px;
+    font-size: 30px;
   }
   .whybme-section .flex-container-why {
     flex-direction: column;
@@ -483,7 +485,7 @@
   .me-stats-header{
     margin-left: 50px !important;
     margin-top: 50px;
-    font-size: 30px !important;
+    font-size: 28px !important;
   }
   
   .parent{
