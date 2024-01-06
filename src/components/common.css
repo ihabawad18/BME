@@ -116,8 +116,8 @@
   .footer img {
     margin: 20px;
     margin-left: 5px;
-    width: 70%;
-    height: 65px;
+    width: 350px;
+    height: 116px;
   }
 
   .footer .container {
@@ -179,32 +179,61 @@
   .footer img {
     margin: 20px;
     margin-left: 5px;
-    width: 70%;
-    height: 65px;
+    width: 300px;
+    height: 99;
   }
 
   .footer .container {
     width: 100%;
+    
     text-align: center;
   }
 
   .footer ul {
     padding: 0;
-    font-size: 18px;
+    font-size: 16px;
   }
 
+
   .footer h2 {
-    font-size: 22px;
+    font-size: 20px;
     font-weight: 600;
   }
 
   .custom-ul {
-    font-size: 12px;
+    font-size: 11px;
   }
 
-  .custom-li {
-    font-size: 11px;
-    width: 170px;
-    margin: auto;
+  
+
+  /* .row > .col-md-4:nth-child(1) {
+    text-align: left;
+    width: 40%;
   }
+  .row > .col-md-4:nth-child(2) {
+    text-align: center;
+    width: 50%;
+    display: inline-block;
+  }
+  .row > .col-md-4:nth-child(2) li {
+    text-align: left;
+  }
+  .row > .col-md-4:nth-child(3) {
+    text-align: center;
+    width: 100%;
+  } */
+  /* .row > .col-md-4:nth-child(3) li:nth-child(2){
+    margin-top: 0px;
+    height: 53px;
+    padding: 5px;
+    display: inline-block;
+  }*/
+  .custom-li {
+    display: inline-block;
+    font-size: 10px;
+    width: 180px;
+    height: 100%;
+   
+  }
+
 }

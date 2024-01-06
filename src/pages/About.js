@@ -2,6 +2,10 @@ import React from "react";
 import "./About.css";
 import SideImage from "../images/bme-logo-01.png";
 import { useInView } from "react-intersection-observer";
+import Image1 from "../images/BME PHOTOS/Qiddiyah-City-Center-Saudi-Arabia-Facebook.jpeg";
+import Image2 from "../images/BME PHOTOS/16.jpeg";
+import Image3 from "../images/BME PHOTOS/neom-saudi-arabia-0045.jpeg";
+
 const About = () => {
   
   const { ref: ref1, inView: ref1InView } = useInView({
@@ -43,10 +47,14 @@ const About = () => {
               </p>
             </div>
             <div className="col-md-3 col-6">
-              <div className="about-card1"></div>
+              <div className="about-card1">
+                <img src={Image1}/>
+              </div>
             </div>
             <div className="col-md-3 col-6">
-              <div className="about-card1"></div>
+              <div className="about-card1">
+                <img src={Image2}/>
+              </div>
             </div>
           </div>
         </div>
@@ -54,7 +62,9 @@ const About = () => {
         <div className="container about-container-2">
           <div className="row">
             <div className="col-md-6 col-12">
-              <div className="about-card2"></div>
+              <div className="about-card2">
+                <img src={Image3}/>
+              </div>
             </div>
             <div className="col-md-6 col-12">
               <p className="about-second-row-p">

@@ -1,5 +1,5 @@
 .services-section {
-  margin-left: 80px;
+  /* margin-left: 80px; */
 }
 
 .services-section .services-header {
@@ -7,11 +7,13 @@
   color: #141c51;
   font-weight: 500;
   font-size: 40px;
+  margin-left: 80px;
 }
 
 .services-section .container {
-  margin: 40px 0px;
+  margin: 40px 20px;
   max-width: 100%;
+  
 }
 
 .services-section .container .col-md-6 {
@@ -41,7 +43,7 @@
   justify-content: center;
   flex-wrap: wrap;
   margin: auto;
-  width: 70%;
+  width: 60%;
   margin-bottom: 5%;
 }
 

@@ -39,10 +39,9 @@ const Footer = () => {
             <h2>Find Us</h2>
             <ul className="custom-ul">
               <li>+971 768 987 098</li>
-              <li>Info@BME.com</li>
+              <li>info@bridgemena.com</li>
               <li className="custom-li">
-                Business Center 1, The Meydan Hotel, Nad Al Sheba, Dubai, UAE
-                P.O.Box. 9305
+                The Meydan Hotel, Nad Al Sheba, Dubai, UAE
               </li>
             </ul>
           </div>
