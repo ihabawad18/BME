@@ -227,26 +227,31 @@
   transition: 0.3s all ease;
 }
 
-.circle h2{
+.circle img{
+  width: 80%;
+  height: 80%;
+}
+
+.circle img{
   margin: 0;
-  color:white;
+  /* color:white; */
   transform: rotate(calc(36deg * var(--i)));
   transform: rotate(-18.5deg);
 }
 
-.circle2 h2{
+.circle2 img{
   /* transform: rotate(calc(36deg * var(--i))); */
   transform: rotate(-54deg);
 }
-.circle3 h2{
+.circle3 img{
   /* transform: rotate(calc(36deg * var(--i))); */
   transform: rotate(-90deg);
 }
-.circle4 h2{
+.circle4 img{
   /* transform: rotate(calc(36deg * var(--i))); */
   transform: rotate(-125deg);
 }
-.circle5 h2{
+.circle5 img{
   /* transform: rotate(calc(36deg * var(--i))); */
   transform: rotate(-163deg);
 }

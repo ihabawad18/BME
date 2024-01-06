@@ -3,6 +3,11 @@ import "./WhyBME.css";
 import Ellipse from "../images/ellipse.png";
 import { useState } from "react";
 import { useInView } from "react-intersection-observer";
+import Icon1 from "../images/icons/1.png";
+import Icon2 from "../images/icons/2.png";
+import Icon3 from "../images/icons/3.png";
+import Icon4 from "../images/icons/4.png";
+import Icon5 from "../images/icons/5.png";
 const WhyBME = () => {
   
   const { ref: ref1, inView: ref1InView } = useInView({
@@ -192,7 +197,7 @@ const WhyBME = () => {
               style={{ "--i": 1 }}
               onClick={() => handleOnClick(1)}
             >
-              <h2>1</h2>
+              <img src={Icon1}/>
             </div>
             <div
               id="circle2"
@@ -200,7 +205,7 @@ const WhyBME = () => {
               style={{ "--i": 2 }}
               onClick={() => handleOnClick(2)}
             >
-              <h2>2</h2>
+              <img src={Icon2}/>
             </div>
             <div
               id="circle3"
@@ -208,7 +213,7 @@ const WhyBME = () => {
               style={{ "--i": 3 }}
               onClick={() => handleOnClick(3)}
             >
-              <h2>3</h2>
+              <img src={Icon3}/>
             </div>
             <div
               id="circle4"
@@ -216,7 +221,7 @@ const WhyBME = () => {
               style={{ "--i": 4 }}
               onClick={() => handleOnClick(4)}
             >
-              <h2>4</h2>
+              <img src={Icon4}/>
             </div>
             <div
               id="circle5"
@@ -224,7 +229,7 @@ const WhyBME = () => {
               style={{ "--i": 5 }}
               onClick={() => handleOnClick(5)}
             >
-              <h2>5</h2>
+              <img src={Icon5}/>
             </div>
           </div>
         </div>
