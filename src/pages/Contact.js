@@ -9,7 +9,7 @@ const Contact = () => {
 
   const clearFields = () => {
     // Open the mailto link in a new window
-    const mailtoLink = `mailto:info@BME.com?subject=${
+    const mailtoLink = `mailto:info@bridgemena.com?subject=${
       document.getElementById("company-name").value
     }&body=${document.getElementById("message").value}`;
     window.open(mailtoLink, "_blank");
@@ -73,11 +73,10 @@ const Contact = () => {
               </div>
               <div className="flexing">
                 <i className="fas fa-envelope"></i>
-                <h2>info@BME.com</h2>
+                <h2>info@bridgemena.com</h2>
               </div>
               <p>
-                Business Center 1, The Meydan Hotel, Nad Al Sheba, Dubai, UAE
-                P.O.Box. 9305
+                The Meydan Hotel, Nad Al Sheba, Dubai, UAE
               </p>
             </div>
           </div>
