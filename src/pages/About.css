@@ -115,6 +115,7 @@ h2{
 .founder-card .founder-card-image img{
     width: 100%;
     height: 100%;
+    margin: auto;
 }
 
 .founder-card h3{
@@ -339,8 +340,19 @@ h2{
 
     .founder-card{
         width: 260px;
-        height: 550px;
+        height: 480px;
         /* margin-left: 4%; */
+    }
+
+    .founder-card .founder-card-image {
+        height: 32%;
+    }
+
+    .founder-card .founder-card-image img{
+        width: 100%;
+        height: 100%;
+        
+        margin: auto;
     }
     
     
