@@ -156,10 +156,10 @@ const WhyBME = () => {
           </div>
         </div>
       </div>
+      <h2>THE FUTURE OF THE MIDDLE EAST</h2>
       <div ref={ref4} className={`flex-container-why ${helper(ref4InView)}`}>
         <div className="the-future">
-          <h2>THE FUTURE OF THE MIDDLE EAST</h2>
-          <p>
+          <p className="future-p">
             The Middle East is ever-evolving. The region prides itself on
             innovation and aims to remain a future-forward business hub. Some of
             the initiatives already in place include:

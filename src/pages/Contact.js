@@ -2,7 +2,6 @@ import React from "react";
 import "./Contact.css";
 import { useInView } from "react-intersection-observer";
 const Contact = () => {
-  
   const { ref: ref1, inView: ref1InView } = useInView({
     threshold: 0.2,
   });
@@ -21,7 +20,10 @@ const Contact = () => {
   };
 
   return (
-    <div ref={ref1} className={`contact-section ${ref1InView? "fadeOut fadeIn" : "fadeOut"}`}>
+    <div
+      ref={ref1}
+      className={`contact-section ${ref1InView ? "fadeOut fadeIn" : "fadeOut"}`}
+    >
       <h1 className="contact-header">Contact Us</h1>
       <p className="contact-paragraph">
         Your inquiries are important to us. For questions regarding our
@@ -54,7 +56,7 @@ const Contact = () => {
               </div>
               <div className="col-md-6">
                 <label>Message</label>
-                <input name="message" id="message" type="text" />
+                <textarea name="message" id="message" type="text" />
               </div>
             </div>
           </div>
@@ -75,9 +77,11 @@ const Contact = () => {
                 <i className="fas fa-envelope"></i>
                 <h2>info@bridgemena.com</h2>
               </div>
-              <p>
-                The Meydan Hotel, Nad Al Sheba, Dubai, UAE
-              </p>
+              <div className="flexing">
+                <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                {/* <p>The Meydan Hotel, Nad Al Sheba, Dubai, UAE</p> */}
+                <h2>The Meydan Hotel, Nad Al Sheba, Dubai, UAE</h2>
+              </div>
             </div>
           </div>
         </div>

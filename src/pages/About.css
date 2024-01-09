@@ -92,6 +92,11 @@ h2{
     margin-bottom: 70px;
 }
 
+.founders-section h2{
+    text-align: center;
+    margin-left: 0px;
+}
+
 .founders-cards{
     display: flex;
     flex-wrap: wrap;
@@ -122,7 +127,8 @@ h2{
 
 .founder-card h3{
     max-width: 90%;
-    font-size: 20px;
+    font-size: 19px;
+    font-weight: 600;
     font-family: "MARLIDE_DISPLAY_DEMIBOLD";
 }
 
@@ -160,6 +166,10 @@ h2{
     .about-header{
         font-size: 33px;
     }
+    .founders-section h2{
+        text-align: center;
+        margin-left: 0px;
+    }
 }
 
 @media only screen and (min-width: 800px) and (max-width:1000px) {
@@ -195,6 +205,10 @@ h2{
     
     .founder-card p {
         font-size: 13px;
+    }
+    .founders-section h2{
+        text-align: center;
+        margin-left: 0px;
     }
 }
 
@@ -233,6 +247,10 @@ h2{
     
     .founder-card p {
         font-size: 13px;
+    }
+    .founders-section h2{
+        text-align: center;
+        margin-left: 0px;
     }   
 }
 
@@ -360,5 +378,10 @@ h2{
     
     .founder-card p {
         font-size: 12px;
-    }   
+    }
+    
+    .founders-section h2{
+        text-align: center;
+        margin-left: 0px;
+    }
 }
