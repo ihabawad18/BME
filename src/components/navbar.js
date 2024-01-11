@@ -20,9 +20,9 @@ const Navbar = ({image,custom_nav,custom_burger}) => {
         <li>
           <Link className={`${custom_nav}`} to="/about-us">ABOUT US</Link>
         </li>
-        <li>
-          {/* <Link className={`${custom_nav}`} to="/services">Services</Link> */}
-        </li>
+        {/* <li>
+          <Link className={`${custom_nav}`} to="/services">Services</Link>
+        </li> */}
         <li>
           <Link className={`${custom_nav}`} to="/why-bme">WHY BME?</Link>
         </li>

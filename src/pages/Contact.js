@@ -78,8 +78,9 @@ const Contact = () => {
                 <h2>info@bridgemena.com</h2>
               </div>
               <div className="flexing">
-                <i class="fa fa-location-arrow" aria-hidden="true"></i>
+                {/* <i class="fa fa-location-arrow" aria-hidden="true"></i> */}
                 {/* <p>The Meydan Hotel, Nad Al Sheba, Dubai, UAE</p> */}
+                <i class="fa-solid fa-location-dot"></i>
                 <h2>The Meydan Hotel, Nad Al Sheba, Dubai, UAE</h2>
               </div>
             </div>

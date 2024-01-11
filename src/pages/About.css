@@ -1,5 +1,6 @@
 h2{
-    font-size: 40px;    
+    font-size: 50px;    
+    font-weight: 600;
 }
 .about-section {
   margin-left: 50px;
@@ -11,15 +12,77 @@ h2{
   margin-top: 2.5%;
   margin-bottom: 2.5%;
   color: #141c51;
-  font-weight: 500;
+  font-weight: 600;
+  margin-left: 30px;
   font-size: 50px;
 }
+
+/* about 1,about2 */
+
+.about-section .about-1,.about-section .about-2{
+    display: flex;
+    align-items: center;
+    margin: 30px;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.about-section .about-2{
+    align-items: flex-start;
+}
+
+.about-section .about-1 p,
+.about-section .about-2 p{
+    width: 50%;
+}
+
+.about-section .about-2 p{
+    width: 52%;
+    align-self: center;
+}
+
+.about-section .about-1 img,.about-section .about-2 img{
+    width: 25%;
+    height:300px;
+    border-radius: 40px;
+}
+
+
+.about-section .about-1 img:nth-child(2){
+    height: 500px;
+    width: 20%;
+}
+
+.about-section .about-1 img:nth-child(3){
+    align-self: flex-start;
+    width: 27%;
+}
+
+
+.about-section .about-2 img:nth-child(1){
+    height: 300px;
+    width: 18%;
+}
+
+.about-section .about-2 img:nth-child(3){
+    position: absolute;
+    width: 25%;
+    top:600px;
+    right: 35px;
+}
+
+
+
+
+
+/*  */
 .about-container-1,.about-container-2 {
   max-width: 100%;
   margin-top: 40px;
   padding-right: 40px;
   margin-bottom: 2.5%;
 }
+
 .about-second-row-p,.about-first-row-p {
   margin-top: 30px;
   margin-right: 20px;
@@ -45,7 +108,7 @@ h2{
 }
 
 .about-section .custom-container{
-    margin-top: 5%;
+    /* margin-top: 5%; */
     position: relative;
     /* height: 800px; */
     overflow: hidden;
@@ -59,14 +122,26 @@ h2{
     
 }
 .about-section .custom-container2{
-    display: inline-block;
+    display: flex;
     height: 450px;
+    align-items: center;
+    gap: 20px;
+}
+.about-section .custom-container2 img{
+    width: 50%;
+    position: static;
+    border-radius: 40px;
+    height: 300px;
+    margin-right: 40px;
+
 }
 .about-section .custom-container p{
     margin-top: 40px;
     font-size: 25px;
-    max-width: 50%;
-    margin-left: 10px;    
+    position: static;
+    width: 50%;
+    /* max-width: 50%;
+    margin-left: 10px;     */
     /* width: 50%; */
 }
 
@@ -82,6 +157,26 @@ h2{
     margin-top: 50px;
     width: 90%;
     
+}
+/* about section 3 */
+
+.about-section-3 h2{
+    text-align: center;
+    margin-bottom: 40px;
+    font-size: 50px;
+}
+.about-section-3 .about-flexing{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.about-section-3 .about-flexing p{
+    width: 48%;
+}
+.about-section-3 .about-flexing img{
+    width: 48%;
+    margin-right: 10px;
 }
 
 
@@ -143,6 +238,59 @@ h2{
 
 /* Responsiveness */
 
+@media only screen and (max-width:1442px) {
+
+    .about-section .about-1,.about-section .about-2{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+.about-section .about-2 img:nth-child(3){
+    display: none;
+}
+
+.about-section .about-2{
+    align-items: flex-start;
+}
+
+.about-section .about-1 p,
+.about-section .about-2 p{
+    width: 90%;
+}
+
+.about-section .about-2 p{
+    width: 90%;
+    margin-top: 20px;
+    align-self: center;
+}
+
+/* .about-section .about-1 img,.about-section .about-2 img{
+    width: 25%;
+    height:300px;
+    border-radius: 40px;
+} */
+
+
+.about-section .about-1 img:nth-child(2){
+    height: 300px;
+    width: 70%;
+}
+
+.about-section .about-1 img:nth-child(3){
+    height: 300px;
+    align-self: center;
+    width: 70%;
+}
+
+
+.about-section .about-2 img:nth-child(1){
+    height: 300px;
+    width: 70%;
+    align-self: center;
+}
+
+}
+
 @media only screen and (min-width:1000px) and (max-width:1200px) {
     
     .about-section h2{
@@ -165,6 +313,7 @@ h2{
 
     .about-header{
         font-size: 33px;
+        margin-left: 0px;
     }
     .founders-section h2{
         text-align: center;
@@ -201,6 +350,7 @@ h2{
 
     .about-header{
         font-size: 32px;
+        margin-left: 0px;
     }
     
     .founder-card p {
@@ -230,6 +380,15 @@ h2{
         left: 32%;
         
     }
+    .about-section h1,.about-section h2{
+        text-align: center;
+        margin-left: 0px !important;
+    }
+    .about-section .about-1 p,
+.about-section .about-2 p{
+    font-size: 20px;
+    text-align: center;
+}
 
     .about-second-row-p, .about-first-row-p{
         margin-top: 0;
@@ -243,6 +402,7 @@ h2{
 
     .about-header{
         font-size: 25px;
+        margin-left: 0px;
     }
     
     .founder-card p {
@@ -264,11 +424,24 @@ h2{
         font-size: 30px;
     }
 
+    .about-section-3 .about-flexing p{
+        width: 90%;
+        margin: auto;
+        font-size: 20px;
+        text-align: center;
+
+    }
+    .about-section-3 .about-flexing img{
+        width: 70%;
+        border-radius: 30px;
+        margin: auto;
+    }
+
     .about-section .about-header{
         font-size: 30px;
         margin-left: 50px;
     }
-    .about-section .col-6,.col-12{
+    .about-section .col-6,.about-section .col-12{
         margin-bottom: 20px;
         margin-top: 10px;
         padding-left: 0px;

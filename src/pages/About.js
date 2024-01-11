@@ -5,6 +5,8 @@ import { useInView } from "react-intersection-observer";
 import Image1 from "../images/BME PHOTOS/Qiddiyah-City-Center-Saudi-Arabia-Facebook.jpeg";
 import Image2 from "../images/BME PHOTOS/16.jpeg";
 import Image3 from "../images/BME PHOTOS/neom-saudi-arabia-0045.jpeg";
+import Image4 from "../images/BME PHOTOS/60444982-5550-46a9-bc18-81ec5da2423d_16x9_1200x676.jpg";
+import Image5 from "../images/BME PHOTOS/king-salman-energy-park-1024x683.jpeg";
 
 import Founder1 from "../images/founders/prince.png";
 import Founder2 from "../images/founders/razaq.png";
@@ -31,52 +33,32 @@ const About = () => {
 
   return (
     <div className="about-section">
-      <h1 className="about-header">ABOUT US</h1>
       <div ref={ref1} className={`${helper(ref1InView)}`}>
-        {/* about container 1 */}
-        <div className="container about-container-1">
-          <div className="row">
-            <div className="col-md-6 col-12">
-              <p className="about-first-row-p">
-                Bridge Middle East provides expert guidance to companies looking
-                to expand into the Middle East.
-                <br />
-                <br />
-                Using our extensive network across the region, We help companies
-                build strategic partnerships with innovative international
-                corporations.
-              </p>
-            </div>
-            <div className="col-md-3 col-6">
-              <div className="about-card1">
-                <img src={Image1} />
-              </div>
-            </div>
-            <div className="col-md-3 col-6">
-              <div className="about-card1">
-                <img src={Image2} />
-              </div>
-            </div>
-          </div>
+        <h1 className="about-header">ABOUT US</h1>
+        <div className="about-1">
+          <p>
+            Bridge Middle East provides expert guidance to companies looking to
+            expand into the Middle East.
+            <br />
+            <br />
+            Using our extensive network across the region, We help companies
+            build strategic partnerships with innovative international
+            corporations.
+          </p>
+          <img src={Image2} />
+          <img src={Image1} />
         </div>
-        {/* about container 2 */}
-        <div className="container about-container-2">
-          <div className="row">
-            <div className="col-md-6 col-12">
-              <div className="about-card2">
-                <img src={Image3} />
-              </div>
-            </div>
-            <div className="col-md-6 col-12">
-              <p className="about-second-row-p">
-                BME offers a range of business development services,
-                partnerships, and networking opportunities which are crucial for
-                the success of business in the region.
-              </p>
-            </div>
-          </div>
+        <div className="about-2">
+          <img src={Image3} />
+          <p>
+            BME offers a range of business development services, partnerships,
+            and networking opportunities which are crucial for the success of
+            business in the region.
+          </p>
+          <img src={Image4} />
         </div>
       </div>
+
       <div ref={ref2} className={`custom-container ${helper(ref2InView)}`}>
         <div className="custom-container2">
           <p>
@@ -85,24 +67,31 @@ const About = () => {
             services and tools necessary to establish a local presence and
             thrive in this unique market.
           </p>
-          <h2>How Can We Help You?</h2>
+          <img src={Image5} />
         </div>
 
-        <img src={SideImage} alt="side photo" />
+        {/* <img src={SideImage} alt="side photo" /> */}
       </div>
-      <p ref={ref3} className={`how-p ${helper(ref3InView)}`}>
-        We will simplify your expansion into the Middle East and help you to
-        facilitate sustainable business growth.
-        <br />
-        <br />
-        Each country in the region presents a unique set of challenges and
-        complexities in terms of local labor laws, compliance requirements, and
-        cultural nuances.
-        <br />
-        <br />
-        BME will guide you through every step of the process and connect you
-        with a powerful network.
-      </p>
+      <div ref={ref3} className={`about-section-3 ${helper(ref3InView)}`}>
+        <h2>How Can We Help You?</h2>
+        <div className="about-flexing">
+          <p>
+            We will simplify your expansion into the Middle East and help you to
+            facilitate sustainable business growth.
+            <br />
+            <br />
+            Each country in the region presents a unique set of challenges and
+            complexities in terms of local labor laws, compliance requirements,
+            and cultural nuances.
+            <br />
+            <br />
+            BME will guide you through every step of the process and connect you
+            with a powerful network.
+          </p>
+          <img src={Image1} />
+        </div>
+      </div>
+
       <div ref={ref4} className={`founders-section ${helper(ref4InView)}`}>
         <h2>Our Founders</h2>
         <div className="founders-cards">

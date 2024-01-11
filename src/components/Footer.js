@@ -11,13 +11,13 @@ const Footer = () => {
             <h2>Quick Links</h2>
             <ul>
               <li>
-                <Link to='/'>Home</Link>
+                <Link to="/">Home</Link>
               </li>
               <li>
-                <Link to='/services'>Services</Link>
+                <Link to="/services">Services</Link>
               </li>
               <li>
-                <Link to='about-us'>About Us</Link>
+                <Link to="about-us">About Us</Link>
               </li>
             </ul>
           </div>
@@ -38,10 +38,25 @@ const Footer = () => {
           <div className="col-md-4">
             <h2>Find Us</h2>
             <ul className="custom-ul">
-              <li>+971 768 987 098</li>
-              <li>info@bridgemena.com</li>
+              <li>
+                <div className="flexing">
+                  <i className="fas fa-phone"></i>
+                  <p>+971 768 987 098</p>
+                </div>
+              </li>
+              <li>
+                <div className="flexing">
+                  <i className="fas fa-envelope"></i>
+                  <p>info@bridgemena.com</p>
+                </div>
+              </li>
               <li className="custom-li">
-                The Meydan Hotel, Nad Al Sheba, Dubai, UAE
+                <div className="flexing">
+                  {/* <i class="fa fa-location-arrow" aria-hidden="true"></i> */}
+                  {/* <p>The Meydan Hotel, Nad Al Sheba, Dubai, UAE</p> */}
+                  <i class="fa-solid fa-location-dot"></i>
+                  <p>The Meydan Hotel, Nad Al Sheba, Dubai, UAE</p>
+                </div>
               </li>
             </ul>
           </div>
