@@ -71,7 +71,7 @@ const Contact = () => {
             <div className="col-md-6">
               <div className="flexing">
                 <i className="fas fa-phone"></i>
-                <h2>+971 768 987 098</h2>
+                <h2>+9714342 4764</h2>
               </div>
               <div className="flexing">
                 <i className="fas fa-envelope"></i>

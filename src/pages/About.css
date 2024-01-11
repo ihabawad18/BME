@@ -420,8 +420,8 @@ h2{
     }
 
     .about-section h2{
-        margin-left: 50px;
-        font-size: 30px;
+        margin-left: 40px;
+        font-size: 40px !important;
     }
 
     .about-section-3 .about-flexing p{
@@ -498,6 +498,22 @@ h2{
         display: none;
     }
 
+    .section-home-4 .why-outer{
+        width: 50% !important;
+        margin: auto;
+    }
+    .section-home-4 .why-outer .why-content{
+        margin-bottom: 40px;
+        height: auto !important;
+    }
+    .section-home-4 .why-outer .why-content img{
+        width: 40px;
+        height: 40px;
+    }
+    .section-home-4 .why-outer .why-content .left-contain h3{
+        font-size: 30px;
+    }
+
     .about-section .about-container-2{
         margin-bottom: 0px;
         margin-left: 30px;
@@ -515,6 +531,10 @@ h2{
         font-size: 25px;
         margin-top: 50px;
         width: 200px;
+    }
+
+    .section-home-4 h2{
+        font-size: 40px;
     }
 
     /* .about-header{

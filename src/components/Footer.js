@@ -1,5 +1,5 @@
 import React from "react";
-import Logo from "../images/white-logo-03.png";
+import Logo from "../images/white-logo-02.png";
 import { Link } from "react-router-dom";
 const Footer = () => {
   return (
@@ -41,7 +41,7 @@ const Footer = () => {
               <li>
                 <div className="flexing">
                   <i className="fas fa-phone"></i>
-                  <p>+971 768 987 098</p>
+                  <p>+9714342 4764</p>
                 </div>
               </li>
               <li>

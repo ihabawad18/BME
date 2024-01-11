@@ -9,7 +9,8 @@ const Layout2 = ({ children }) => {
   return (
     <div className="boss">
       <div className="home-section1">
-        <Navbar image={BlueLogo} custom_nav={"custom-nav"} custom_burger={"custom-burger"}/>
+        {/* custom_nav={"custom-nav"} custom_burger={"custom-burger"} */}
+        <Navbar />
         <div className="center-intro">
           <p>
             YOUR GATEWAY <br />
