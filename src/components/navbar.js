@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import whiteLogo from "../images/white-logo-02.png";
+import whiteLogo from "../images/white-logo-03.png";
 import { Link } from "react-router-dom";
 import "./navbar.css";
 const Navbar = ({image,custom_nav,custom_burger}) => {

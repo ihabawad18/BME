@@ -311,7 +311,11 @@
     margin: auto;
     margin-top: 30px;
     width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 500px;
+    position: relative;
   }
 
   .whybme-section .part1 {
@@ -321,6 +325,8 @@
   .whybme-section .part2 {
     width: 300px;
     height: 450px;
+    left: 45px;
+    top: 15px;
   }
 
   .whybme-section .part3 {
@@ -440,9 +446,10 @@
 
   .whybme-section .card1{
     display: flex;
+    align-items: center;
     justify-content: center;
-    margin: auto;
-    width: 100% !important;
+    margin: auto !important;
+    width: 300px;
   }
   .whybme-section .card1 {
     display: flex;
@@ -469,7 +476,9 @@
   .whybme-section .part2 {
     width: 250px;
     height: 350px;
-    left: 90px;
+    left: 45px;
+    top: 15px;
+
   }
 
   .whybme-section .part3 {

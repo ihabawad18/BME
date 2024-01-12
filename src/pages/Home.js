@@ -4,9 +4,10 @@ import apo from "../images/apo.png";
 import image1 from "../images/BME PHOTOS/image-home-1.jpg";
 import image2 from "../images/BME PHOTOS/image-home-2.jpg";
 import image3 from "../images/BME PHOTOS/image-home-3.jpg";
-
+import image4 from "../images/BME PHOTOS/new-murabba-riyadh.jpg"
 import Ellipse from "../images/ellipse.png";
 import { useInView } from "react-intersection-observer";
+
 // Import css files
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
@@ -175,7 +176,9 @@ const Home = () => {
       >
         <h2>Why Expand To The Middle East</h2>
         <div className="why-outer">
-          <div className="why-inner"></div>
+          <div className="why-inner">
+            <img src={image4}/>
+          </div>
           <div className="why-content">
             <div className="left-contain">
               <h3>Government Support</h3>

@@ -1,7 +1,7 @@
 import React from "react";
 import Navbar from "./navbar";
 import Footer from "./Footer";
-import BlueLogo from "../images/bme-logo-02.png" 
+import BlueLogo from "../images/bme-logo-03.png" 
 const Layout = ({ children }) => {
   return (
     <div className="boss">
