@@ -37,6 +37,7 @@ h2 {
   width: 45%;
   line-height: 1.3;
   font-size: 27px;
+  position: relative;
 }
 
 .about-section .about-2 p {
@@ -54,13 +55,14 @@ h2 {
 .about-section .about-1 img:nth-child(2) {
   height: 450px;
   width: 20%;
+  object-fit: cover;
 }
 
 .about-section .about-1 img:nth-child(3) {
   align-self: flex-start;
   width: 23.5%;
   position: absolute;
-  top: 15%;
+  top: 120px;
   right: 7.5%;
 }
 
@@ -72,7 +74,7 @@ h2 {
 .about-section .about-2 img:nth-child(3) {
   position: absolute;
   width: 23.25%;
-  top: 55%;
+  top: 520px;
   right: 7.7%;
 }
 
@@ -326,20 +328,31 @@ h2 {
 
   .about-header {
     font-size: 33px;
-    margin-left: 0px;
+    /* margin-left: 0px; */
   }
   .founders-section h2 {
     text-align: center;
-    margin-left: 0px;
+    /* margin-left: 0px; */
   }
 }
 
 @media only screen and (min-width: 800px) and (max-width: 1000px) {
-  .about-section h2 {
-    font-size: 30px;
+  .about-section h2 ,.about-header{
+    font-size: 35px !important;
   }
-
-  .about-second-row-p,
+  .about-section .about-1 p,.about-section .about-2 p,.about-section .custom-container p{
+    font-size: 24px !important;
+  }
+  .custom-container p{
+    width: 85% !important;
+  }
+  .about-section .about-header{
+    text-align: center;
+  }
+  .custom-container2 img{
+    margin-right: 0px !important;
+  }
+    .about-second-row-p,
   .about-first-row-p,
   .about-section .custom-container p,
   .about-section .how-p {
