@@ -52,9 +52,9 @@ const Footer = () => {
               </li>
               <li className="custom-li">
                 <div className="flexing">
-                  {/* <i class="fa fa-location-arrow" aria-hidden="true"></i> */}
+                  {/* <i className="fa fa-location-arrow" aria-hidden="true"></i> */}
                   {/* <p>The Meydan Hotel, Nad Al Sheba, Dubai, UAE</p> */}
-                  <i class="fa-solid fa-location-dot"></i>
+                  <i className="fa-solid fa-location-dot"></i>
                   <p>The Meydan Hotel, Nad Al Sheba, Dubai, UAE</p>
                 </div>
               </li>

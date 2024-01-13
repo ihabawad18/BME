@@ -242,9 +242,9 @@ const Home = () => {
         <h2>Our Services</h2>
         <div className="services-slider">
           <Slider {...settings}>
-            {data.map((item) => {
+            {data.map((item,i) => {
               return (
-                <div className="services-slide">
+                <div key={i} className="services-slide">
                   <h3>{item.number}</h3>
                   <p>{item.paragraph}</p>
                 </div>
