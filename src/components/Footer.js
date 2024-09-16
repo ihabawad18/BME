@@ -25,13 +25,20 @@ const Footer = () => {
             <h2>Social Media</h2>
             <ul>
               <li>
-                <Link>Instagram</Link>
+                <Link
+                  to={
+                    "https://www.instagram.com/bridgemena/?utm_source=ig_web_button_share_sheet"
+                  }
+                >
+                  Instagram
+                </Link>
               </li>
               <li>
-                <Link>Facebook</Link>
-              </li>
-              <li>
-                <Link>LinkedIn</Link>
+                <Link
+                  to={"https://www.linkedin.com/company/bridge-middle-east/"}
+                >
+                  LinkedIn
+                </Link>
               </li>
             </ul>
           </div>
